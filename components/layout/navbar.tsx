@@ -26,7 +26,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className='fixed top-0 left-0 w-full text-lg bg-blue-300 bg-opacity-35     z-10'>
+		<nav className='fixed top-0 left-0 w-full text-lg bg-blue-300 bg-opacity-35  md:bg-transparent   z-10'>
 			<div className='wrapper'>
 				<div className='py-4 px-6 flex items-center justify-between'>
 					<Link
@@ -38,7 +38,7 @@ const Navbar = () => {
 							width={80}
 							src='/img/logo.png'
 							alt='TQM Partners'
-							className='w-8 mx-1'
+							className='w-8 mx-1 md:w-12'
 						/>{' '}
 						<p className=' lg:text-2xl'>Partners</p>
 					</Link>
@@ -55,21 +55,21 @@ const Navbar = () => {
 					<ul
 						className={`absolute bg-transparent text-white  w-full right-0 top-[72px] text-center     ${
 							isOpen ? '' : 'invisible'
-						}`}>
+						} md:visible md:static md:flex md:items-center md:justify-between md:w-auto `}>
 						{navLinks.map((link, index) => {
 							let duration = (index + 2) * 250;
 							return (
-								<li key={link.name}>
+								<li
+									style={{ transitionDuration: duration + 'ms' }}
+									key={link.name}
+									className={` ${index === 0 ? '' : 'border-t-2'}  ${
+										isOpen
+											? 'opacity-100 translate-x-0'
+											: ' translate-x-full opacity-0'
+									} md:opacity-100 md:border-none md:translate-x-0 md:mx-3`}>
 									<Link
-										style={{ transitionDuration: duration + 'ms' }}
 										href={link.link}
-										className={`block py-5 bg-blue-400 cursor-pointerz-100 font-semibold text-xl ${
-											index === 0 ? '' : 'border-t-2'
-										}  ${
-											isOpen
-												? 'translate-x-0 opacity-1'
-												: 'translate-x-full opacity-0'
-										}`}>
+										className={`block py-5 bg-blue-400 cursor-pointer z-100  text-xl md:bg-transparent  md:text-lg`}>
 										{link.name}
 									</Link>
 								</li>

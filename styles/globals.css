@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wrapper {
+	margin: auto;
+	max-width: 1200px;
+}
+
+.bg-shadow {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(0, 0, 0, 0.4);
+	z-index: -1;
+}

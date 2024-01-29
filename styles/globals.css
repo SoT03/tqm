@@ -19,6 +19,13 @@ html {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(3, 69, 131, 0.4);
+	background-color: rgba(88, 41, 10, 0.5);
 	z-index: -1;
+}
+
+.btn {
+	padding: 0.6em 1.4em;
+	background-color: #0ea5e9;
+	border-radius: 2px;
+	border: 1px solid grey;
 }

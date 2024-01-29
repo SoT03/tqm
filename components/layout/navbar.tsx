@@ -28,7 +28,7 @@ const Navbar = () => {
 	return (
 		<nav className='fixed top-0 left-0 w-full text-lg bg-blue-300 bg-opacity-35  md:bg-transparent   z-10'>
 			<div className='wrapper'>
-				<div className='py-4 px-6 flex items-center justify-between'>
+				<div className='py-4 px-6 flex items-center justify-between lg:px-10'>
 					<Link
 						href={'/'}
 						className='flex items-center uppercase font-semibold'>
@@ -66,10 +66,10 @@ const Navbar = () => {
 										isOpen
 											? 'opacity-100 translate-x-0'
 											: ' translate-x-full opacity-0'
-									} md:opacity-100 md:border-none md:translate-x-0 md:mx-3`}>
+									} md:opacity-100 md:border-none md:translate-x-0 md:mx-3 lg:mx-5`}>
 									<Link
 										href={link.link}
-										className={`block py-5 bg-blue-400 cursor-pointer z-100  text-xl md:bg-transparent  md:text-lg`}>
+										className={`block py-5 bg-blue-400 cursor-pointer z-100  text-xl md:bg-transparent  md:text-lg hover:text-red-700 transition-colors duration-300`}>
 										{link.name}
 									</Link>
 								</li>

@@ -13,13 +13,18 @@ html {
 	max-width: 1200px;
 }
 
+.wrapper-lg {
+	margin: auto;
+	max-width: 1600px;
+}
+
 .bg-shadow {
 	position: absolute;
 	left: 0;
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(88, 41, 10, 0.5);
+	background-color: rgba(28, 20, 36, 0.6);
 	z-index: -1;
 }
 
@@ -28,4 +33,15 @@ html {
 	background-color: #0ea5e9;
 	border-radius: 2px;
 	border: 1px solid grey;
+	transition: background-color 0.5s, color 0.3s;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #0ea5e9;
+}
+
+.text-shadow {
+	text-shadow: 1px 1px 2px black;
 }

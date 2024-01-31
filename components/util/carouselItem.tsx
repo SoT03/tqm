@@ -15,7 +15,7 @@ type carouselItemProps = {
 const CarouselItem = ({ width, data }: carouselItemProps) => {
 	return (
 		<div
-			className='absolute w-full h-full bg-center bg-cover z-0 '
+			className='absolute w-full h-full bg-center bg-cover z-0 opacity-0'
 			style={{
 				backgroundImage: `${width >= 768 ? data.url : data.url_mobile}`,
 			}}>

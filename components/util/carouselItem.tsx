@@ -17,7 +17,7 @@ const CarouselItem = ({ width, data, isActive }: carouselItemProps) => {
 	return (
 		<div
 			className={`absolute w-full h-full bg-center bg-cover z-0 transition-opacity duration-1000 ${
-				isActive ? 'opacity-100' : 'opacity-0'
+				isActive ? 'opacity-100 ' : 'opacity-0 -z-30'
 			}`}
 			style={{
 				backgroundImage: `${width >= 768 ? data.url : data.url_mobile}`,

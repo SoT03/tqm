@@ -21,11 +21,13 @@ const Carousel = () => {
 			url: 'url(/img/certificate_big.jpg)',
 			url_mobile: 'url(/img/certificate_small.jpg)',
 			heading: 'Certyfikacja Systemów',
-			para: 'Certyfikacja systemów zarządzania: ISO 27001 , ISO 9001, ISO 14001 i wielu więcej.',
+			para: 'Certyfikacja systemów zarządzania: ISO 27001 , ISO 9001, ISO 14001 i wielu innych.',
 			link: '/',
 			button_text: 'Sprawdź Ofertę',
 		},
 	];
+
+	const dots = [0, 1, 2];
 
 	const nextItem = () => {
 		const isLastSlide = currentIndex === carouselItems.length;
@@ -51,6 +53,16 @@ const Carousel = () => {
 						data={item}
 						width={sizes.width}
 					/>
+				))}
+			</div>
+			<div className='absolute flex left-1/2 -translate-x-1/2  bottom-7 md:bottom-16 md:translate-x-0'>
+				{dots.map((dot) => (
+					<div
+						onClick={() => setCurrentIndex(dot)}
+						key={dot}
+						className={`border-2 rounded-full p-2.5 mx-4 transition-all duration-500 cursor-pointer hover:scale-110 ${
+							dot === currentIndex ? 'bg-sky-400' : ''
+						}`}></div>
 				))}
 			</div>
 		</div>

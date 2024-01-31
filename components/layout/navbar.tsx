@@ -69,7 +69,7 @@ const Navbar = () => {
 									} md:opacity-100 md:border-none md:translate-x-0 md:mx-3 lg:mx-5`}>
 									<Link
 										href={link.link}
-										className={`block py-5 bg-blue-300 cursor-pointer z-100  text-xl md:bg-transparent  md:text-lg hover:text-blue-400 transition-colors duration-300`}>
+										className={`block py-5 px-1 bg-sky-500 cursor-pointer z-100  text-xl md:bg-transparent  md:text-lg hover:text-blue-400 transition-colors duration-300`}>
 										{link.name}
 									</Link>
 								</li>

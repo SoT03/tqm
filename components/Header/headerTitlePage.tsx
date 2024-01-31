@@ -1,30 +1,18 @@
 import Link from 'next/link';
-import { useState } from 'react';
+
 import HighlightedSpan from './headerHighlighted';
 
 type titlePageProps = {
 	width: number;
+	isActive: boolean;
 };
 
-const TitlePage = ({ width }: titlePageProps) => {
-	let img = [
-		{
-			small: 'url(/img/handshake_small.jpg)',
-			big: 'url(/img/handshake_big.jpg)',
-		},
-		{
-			small: 'url(/img/course_small.jpg)',
-			big: 'url(/img/course_big.jpg)',
-		},
-		{
-			small: 'url(/img/plan_small.jpg)',
-			big: 'url(/img/plan_big.jpg)',
-		},
-	];
-
+const TitlePage = ({ width, isActive }: titlePageProps) => {
 	return (
 		<div
-			className='absolute w-full h-full bg-center bg-cover z-0 '
+			className={`absolute w-full h-full bg-center bg-cover z-0 transition-opacity duration-1000 ${
+				isActive ? 'opacity-100' : 'opacity-0'
+			}`}
 			style={{
 				backgroundImage: `${
 					width >= 768

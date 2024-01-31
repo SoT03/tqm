@@ -10,12 +10,15 @@ type carouselItemProps = {
 		link: string;
 		button_text: string;
 	};
+	isActive: boolean;
 };
 
-const CarouselItem = ({ width, data }: carouselItemProps) => {
+const CarouselItem = ({ width, data, isActive }: carouselItemProps) => {
 	return (
 		<div
-			className='absolute w-full h-full bg-center bg-cover z-0 opacity-0'
+			className={`absolute w-full h-full bg-center bg-cover z-0 transition-opacity duration-1000 ${
+				isActive ? 'opacity-100' : 'opacity-0'
+			}`}
 			style={{
 				backgroundImage: `${width >= 768 ? data.url : data.url_mobile}`,
 			}}>

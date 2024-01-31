@@ -14,7 +14,7 @@ const Carousel = () => {
 			url_mobile: 'url(/img/course_small.jpg)',
 			heading: 'Szkolenia',
 			para: 'Oferujemy usługi szkoleń na Pełnomocnika oraz Audytora ISO. A także wdrażamy systemy zarządzania.',
-			link: '/',
+			link: '/szkolenia',
 			button_text: 'Sprawdź Ofertę',
 		},
 		{
@@ -22,7 +22,7 @@ const Carousel = () => {
 			url_mobile: 'url(/img/certificate_small.jpg)',
 			heading: 'Certyfikacja Systemów',
 			para: 'Certyfikacja systemów zarządzania: ISO 27001 , ISO 9001, ISO 14001 i wielu innych.',
-			link: '/',
+			link: '/certyfikacje',
 			button_text: 'Sprawdź Ofertę',
 		},
 	];

@@ -5,9 +5,9 @@ import { useEffect, useState } from 'react';
 
 const navLinks: { name: string; link: string }[] = [
 	{ name: 'O nas', link: '/#aboutUs' },
-	{ name: 'Szkolenia', link: '/training' },
-	{ name: 'Wdrożenia', link: '/implementations' },
-	{ name: 'Kontakt', link: '/contact' },
+	{ name: 'Certyfikacja', link: '/certyfikacje' },
+	{ name: 'Szkolenia', link: '/szkolenia' },
+	{ name: 'Kontakt', link: '/kontakt' },
 ];
 
 const Navbar = () => {

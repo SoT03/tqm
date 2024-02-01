@@ -4,8 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+	min-width: 0;
+}
+
 html {
 	font-family: 'Roboto Mono', monospace;
+	scroll-behavior: smooth;
 }
 
 .wrapper {

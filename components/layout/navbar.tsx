@@ -4,7 +4,7 @@ import { IconMenu2, IconX } from '@tabler/icons-react';
 import { useEffect, useState } from 'react';
 
 const navLinks: { name: string; link: string }[] = [
-	{ name: 'O nas', link: '/#aboutUs' },
+	{ name: 'O nas', link: '/#aboutus' },
 	{ name: 'Wdrożenia', link: '/wdrożenia' },
 	{ name: 'Audyty', link: '/audyty' },
 	{ name: 'Szkolenia', link: '/szkolenia' },

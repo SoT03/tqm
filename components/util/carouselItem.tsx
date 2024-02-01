@@ -24,11 +24,11 @@ const CarouselItem = ({ width, data, isActive }: carouselItemProps) => {
 			}}>
 			<div className='wrapper-lg h-full  px-7  md:bg-black md:bg-opacity-40 md:items-start md:max-w-[50%] md:ml-0'>
 				<div className='h-full flex flex-col items-center justify-center md:items-start md:ml-4 lg:ml-16 lg:mr-12 xl:ml-[50%]'>
-					<h2 className='text-2xl font-semibold mt-10 mb-4 md:text-4xl'>
+					<h2 className='text-2xl font-semibold mt-8 mb-4 md:text-4xl'>
 						{data.heading}
 					</h2>
 					<p className='md:text-lg '>{data.para}</p>
-					<Link href={data.link} className='btn mt-10 lg:mt-12  xl:text-lg'>
+					<Link href={data.link} className='btn mt-8 lg:mt-12  xl:text-lg'>
 						{data.button_text}
 					</Link>
 				</div>

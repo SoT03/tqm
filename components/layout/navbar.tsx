@@ -5,7 +5,8 @@ import { useEffect, useState } from 'react';
 
 const navLinks: { name: string; link: string }[] = [
 	{ name: 'O nas', link: '/#aboutUs' },
-	{ name: 'Certyfikacja', link: '/certyfikacje' },
+	{ name: 'Wdrożenia', link: '/wdrożenia' },
+	{ name: 'Audyty', link: '/audyty' },
 	{ name: 'Szkolenia', link: '/szkolenia' },
 	{ name: 'Kontakt', link: '/kontakt' },
 ];
@@ -26,12 +27,12 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className='fixed top-0 left-0 w-full text-lg bg-blue-300 bg-opacity-35  md:bg-transparent   z-10'>
+		<nav className='fixed top-0 left-0 w-full text-lg bg-blue-300 bg-opacity-35  md:bg-transparent md:backdrop-blur-sm   z-10'>
 			<div className='wrapper-lg'>
-				<div className='py-4 px-6 flex items-center justify-between lg:px-10'>
+				<div className='py-4 px-6 flex items-center justify-between md:py-2 lg:px-10 lg:py-4'>
 					<Link
 						href={'/'}
-						className='flex items-center uppercase font-semibold'>
+						className='flex items-center uppercase font-semibold  '>
 						<p className='  lg:text-2xl'>tqm</p>
 						<Image
 							height={60}
@@ -40,7 +41,7 @@ const Navbar = () => {
 							alt='TQM Partners'
 							className='w-8 mx-1 md:w-12'
 						/>{' '}
-						<p className=' lg:text-2xl'>Partners</p>
+						<p className=' lg:text-2xl '>Partners</p>
 					</Link>
 
 					<div
@@ -66,10 +67,10 @@ const Navbar = () => {
 										isOpen
 											? 'opacity-100 translate-x-0'
 											: ' translate-x-full opacity-0'
-									} md:opacity-100 md:border-none md:translate-x-0 md:mx-3 lg:mx-5`}>
+									} md:opacity-100 md:border-none md:translate-x-0 md:mx-2 lg:mx-5`}>
 									<Link
 										href={link.link}
-										className={`block py-5 px-1 bg-sky-500 cursor-pointer z-100  text-xl md:bg-transparent  md:text-lg hover:text-blue-400 transition-colors duration-300`}>
+										className={`relative block py-5 px-1 bg-sky-500  z-100  text-xl md:bg-transparent md:py-1 md:my-2  md:text-lg hover:text-blue-400 transition-colors duration-300 before:bottom-0 before:bg-blue-400 before:w-0 before:h-px before:transition-[width] before:duration-500  before:absolute before:-z-10  before:content-[""] hover:before:w-full`}>
 										{link.name}
 									</Link>
 								</li>

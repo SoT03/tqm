@@ -13,21 +13,29 @@ const Carousel = () => {
 			url: 'url(/img/course_big.jpg)',
 			url_mobile: 'url(/img/course_small.jpg)',
 			heading: 'Szkolenia',
-			para: 'Oferujemy usługi szkoleń na Pełnomocnika oraz Audytora ISO. A także wdrażamy systemy zarządzania.',
+			para: 'Uczestnicy szkoleń zdobywają umiejętności niezbędne do pełnienia obowiązków certyfikowanego pełnomocnika ds. poszczególnych systemów zarządzania oraz audytora wewnętrznego, zgodnych z normami ISO.',
 			link: '/szkolenia',
-			button_text: 'Sprawdź Ofertę',
+			button_text: 'Sprawdź Szkolenia',
 		},
 		{
 			url: 'url(/img/certificate_big.jpg)',
 			url_mobile: 'url(/img/certificate_small.jpg)',
-			heading: 'Certyfikacja Systemów',
-			para: 'Certyfikacja systemów zarządzania: ISO 27001 , ISO 9001, ISO 14001 i wielu innych.',
-			link: '/certyfikacje',
-			button_text: 'Sprawdź Ofertę',
+			heading: 'Wdrożenia',
+			para: 'Chcesz wdrożyć system ISO w swojej firmie i szukasz profesjonalnego wsparcia ? Pomożemy ci wdrożyć ISO: 9001,14001,27001 i wiele innych.',
+			link: '/wdrożenia',
+			button_text: 'Sprawdź Wdrożenia',
+		},
+		{
+			url: 'url(/img/audit_big.jpg)',
+			url_mobile: 'url(/img/audit_small.jpg)',
+			heading: 'Audyty',
+			para: 'Przeprowadzimy audyt dzięki któremu poznasz słabe oraz mocne strony swojej firmy.',
+			link: '/audyty',
+			button_text: 'Sprawdź Audyty',
 		},
 	];
 
-	const dots = [0, 1, 2];
+	const dots = [0, 1, 2, 3];
 
 	const nextItem = () => {
 		const isLastSlide = currentIndex === carouselItems.length;
@@ -55,7 +63,7 @@ const Carousel = () => {
 					/>
 				))}
 			</div>
-			<div className='absolute flex left-1/2 -translate-x-1/2  bottom-7 md:bottom-16 md:translate-x-0'>
+			<div className='absolute flex left-1/2 -translate-x-1/2  bottom-6 md:bottom-16 md:translate-x-0'>
 				{dots.map((dot) => (
 					<div
 						onClick={() => setCurrentIndex(dot)}

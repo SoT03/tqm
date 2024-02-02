@@ -37,7 +37,7 @@ const AboutUs = () => {
 					<img
 						src='/img/fistBump.jpg'
 						alt='Zdjęcie zespołu przybijającego żółwika'
-						className='relative w-full h-full z-10'
+						className='relative w-full h-full '
 					/>
 				</div>
 			</div>

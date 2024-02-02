@@ -27,7 +27,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className='fixed top-0 left-0 w-full  text-lg bg-sky-300 backdrop-blur-sm bg-opacity-35  md:bg-transparent    z-10'>
+		<nav className='fixed top-0 left-0 w-full  text-lg  backdrop-blur-sm bg-opacity-65  bg-black    z-10'>
 			<div className='wrapper-lg'>
 				<div className='py-4 px-6 flex items-center justify-between md:py-2 lg:px-10 lg:py-4'>
 					<Link
@@ -54,7 +54,7 @@ const Navbar = () => {
 					</div>
 
 					<ul
-						className={`absolute bg-transparent text-black  w-full right-0 top-[72px] text-center     ${
+						className={`absolute bg-transparent text-white  w-full right-0 top-[72px] text-center     ${
 							isOpen ? '' : 'invisible'
 						} md:visible md:static md:flex md:items-center md:justify-between md:w-auto `}>
 						{navLinks.map((link, index) => {
@@ -70,7 +70,7 @@ const Navbar = () => {
 									} md:opacity-100 md:border-none md:translate-x-0 md:mx-2 lg:mx-5`}>
 									<Link
 										href={link.link}
-										className={`relative block py-5 px-1 bg-sky-500  z-100  text-xl md:bg-transparent md:py-1 md:my-2  md:text-lg hover:text-blue-400 transition-colors duration-300 before:bottom-0 before:bg-blue-400 before:w-0 before:h-px before:transition-[width] before:duration-500  before:absolute before:-z-10  before:content-[""] hover:before:w-full`}>
+										className={`relative block py-5 px-1 bg-sky-500  z-100  text-xl md:bg-transparent md:py-1 md:my-2  md:text-lg hover:text-blue-400 transition-colors duration-300 before:bottom-0 before:bg-blue-500 before:w-0 before:h-px before:transition-[width] before:duration-500  before:absolute before:-z-10  before:content-[""] hover:before:w-full`}>
 										{link.name}
 									</Link>
 								</li>

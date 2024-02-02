@@ -8,6 +8,8 @@ import Card from './OfferCard';
 const offerList = [
 	{
 		id: 'Szkolenia',
+		btn: 'Szkoleń',
+		link: '/szkolenia',
 		data: [
 			{
 				title: 'ISO 14001',
@@ -29,6 +31,8 @@ const offerList = [
 	},
 	{
 		id: 'Wdrożenia',
+		btn: 'Wdrożeń',
+		link: '/wdrozenia',
 		data: [
 			{
 				title: 'ISO 9001',
@@ -57,29 +61,36 @@ const Offer = () => {
 		<Section id='offer' classes='bg-slate-100'>
 			<SectionTitle title='Nasza Oferta' />
 			<SectionHr classes='ml-[50%] -translate-x-1/2' />
-			<p className='mt-6 mb-6'>
+			<p className='my-6 md:mb-12 md:text-center md:px-10 lg:px-44 xl:px-64'>
 				Specjalizujemy się w dziedzinie organizacji i zarządzania,
 				projektowania, wdrażania i rozwijania systemów zarządzania opartych o
 				międzynarodowe Normy ISO.
 			</p>
 			<div>
-				<menu className='flex justify-between mb-12 md:mb-20'>
+				<menu className='flex gap-2 justify-center mb-12 md:gap-12 md:mb-20'>
 					{offerList.map((item, index) => (
 						<button
 							onClick={() => setActiveOffer(index)}
 							key={item.id}
-							className={`w-[45%] border-2 h-2/4 p-2 ${
-								activeOffer === index ? 'border-blue-400' : ''
+							className={` border-2 py-2  px-5 md:py-3 md:text-lg md:max-w-[200px] hover:scale-105 transition-transform duration-300 ${
+								activeOffer === index ? 'border-blue-500 ' : ''
 							} `}>
 							{item.id}
 						</button>
 					))}
 				</menu>
-				<div className='flex gap-12 justify-center flex-wrap'>
+				<div className='flex gap-12 justify-center flex-wrap mb-12 lg:gap-16 lg:mb-16'>
 					{offerList[activeOffer].data.map((item) => (
 						<Card key={item.title} data={item} />
 					))}
 				</div>
+			</div>
+			<div className='flex justify-center'>
+				<Link
+					className=' btn--nocolor bg-red-700 font-semibold text-white text-center md:py-3 md:px-7 md:text-xl  hover:scale-110 '
+					href={offerList[activeOffer].link}>
+					Pełna Oferta {offerList[activeOffer].btn}{' '}
+				</Link>
 			</div>
 		</Section>
 	);

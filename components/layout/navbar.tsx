@@ -45,10 +45,10 @@ const Navbar = () => {
 					</Link>
 
 					<div
-						className='cursor-pointer  md:hidden z-30'
+						className='cursor-pointer text-white md:hidden z-30'
 						onClick={navMenuHandler}>
 						<IconMenu2
-							className={`w-10 h-10 ${!isOpen ? 'nav-icon' : 'hidden'}`}
+							className={`w-10 h-10  ${!isOpen ? 'nav-icon' : 'hidden'}`}
 						/>
 						<IconX className={`w-10 h-10 ${isOpen ? 'nav-icon' : 'hidden'}`} />
 					</div>

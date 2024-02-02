@@ -16,7 +16,7 @@ const Card = ({ data }: CardProps) => {
 				<p>{data.text}</p>
 			</div>
 			<Link
-				className='text-sky-500 py-2 mx-4 border-2 border-sky-500  rounded-sm mt-auto text-center uppercase font-semibold'
+				className='text-sky-500 py-2 mx-4 border-2 border-sky-500  rounded-sm mt-auto text-center uppercase font-semibold md:mx-8 hover:scale-110 hover:bg-sky-500 hover:text-white transition-all duration-300'
 				href={data.link}>
 				Zobacz szczegóły
 			</Link>

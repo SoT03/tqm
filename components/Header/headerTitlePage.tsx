@@ -41,7 +41,7 @@ const TitlePage = ({ width, isActive }: titlePageProps) => {
 					</p>
 				</div>
 
-				<Link href={'/'} className='btn mt-6 lg:mt-16 xl:text-lg'>
+				<Link href={'/#aboutus'} className='btn mt-6 lg:mt-16 xl:text-lg'>
 					więcej o nas
 				</Link>
 			</div>

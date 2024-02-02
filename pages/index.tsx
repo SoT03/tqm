@@ -1,5 +1,6 @@
 import Header from '@/components/Header/Header';
-import AboutUs from '@/components/aboutus/AboutUs';
+import AboutUs from '@/components/AboutUs';
+import Offer from '@/components/Offer';
 
 export default function Home() {
 	return (
@@ -7,6 +8,7 @@ export default function Home() {
 			<Header />
 			<main>
 				<AboutUs />
+				<Offer />
 			</main>
 		</>
 	);

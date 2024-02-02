@@ -1,6 +1,6 @@
-import Section from '../util/section/Section';
-import SectionTitle from '../util/section/SectionTitle';
-import SectionHr from '../util/section/Sectionhr';
+import Section from './util/section/Section';
+import SectionTitle from './util/section/SectionTitle';
+import SectionHr from './util/section/Sectionhr';
 
 const AboutUs = () => {
 	return (
@@ -8,8 +8,8 @@ const AboutUs = () => {
 			<SectionTitle title='O nas' classes='lg:text-left ' />
 			<SectionHr />
 			<div className='mt-6 text-sm lg:flex lg:gap-6 xl:gap-16'>
-				<div className='lg:w-2/3'>
-					<p>
+				<div className='lg:w-2/3 '>
+					<p className='mb-3'>
 						<span className='text-red-700 font-semibold text-base'>
 							TQM Partners Sp. z o. o.
 						</span>{' '}
@@ -33,11 +33,13 @@ const AboutUs = () => {
 						poszczególnych normach systemów zarządzania.
 					</p>
 				</div>
-				<img
-					src='/img/fistBump.jpg'
-					alt='Zdjęcie zespołu przybijającego żółwika'
-					className='hidden w-1/3 shadow-sm shadow-black lg:block '
-				/>
+				<div className='relative hidden w-1/3 shadow-sm shadow-black lg:block before:content-[""] before:absolute before:border-8 before:w-full before:h-full before:-top-8 before:-right-8 before:border-blue-800 xl:before:-right-12 xl:before:-top-12 xl:before:border-[0.8725rem] '>
+					<img
+						src='/img/fistBump.jpg'
+						alt='Zdjęcie zespołu przybijającego żółwika'
+						className='relative w-full h-full z-10'
+					/>
+				</div>
 			</div>
 		</Section>
 	);

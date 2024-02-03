@@ -60,7 +60,7 @@ const Offer = () => {
 	return (
 		<Section id='offer' classes='bg-slate-100'>
 			<SectionTitle title='Nasza Oferta' />
-			<SectionHr classes='ml-[50%] -translate-x-1/2' />
+			<SectionHr classes='md:ml-[50%] md:-translate-x-1/2' />
 			<p className='my-6 md:mb-12 md:text-center md:px-10 lg:px-44 xl:px-64'>
 				Specjalizujemy się w dziedzinie organizacji i zarządzania,
 				projektowania, wdrażania i rozwijania systemów zarządzania opartych o

@@ -11,7 +11,7 @@ const traitsData = [
 	},
 	{
 		icon: '/icons/puzzle.png',
-		text: 'Indywidualne rozwiązania przystosowane do twojego biznesu',
+		text: 'Indywidualne rozwiązania przystosowane dla twojego biznesu',
 		alt: 'Ikona puzzli',
 	},
 	{
@@ -39,7 +39,7 @@ const traitsData = [
 const WhyUs = () => {
 	return (
 		<Section classes='bg-slate-50 ' id='WhyUs'>
-			<div className='xl:flex xl:gap-12'>
+			<div className='xl:flex xl:gap-8 xl:items-center'>
 				<div className='xl:w-1/3'>
 					<SectionTitle
 						title='Dlaczego warto z nami współpracować?'
@@ -56,7 +56,7 @@ const WhyUs = () => {
 						satysfakcję z współpracy z TQM Partners Sp. z o. o.
 					</p>
 				</div>
-				<div className='py-8 flex col gap-8 flex-wrap justify-center md:py-12 md:gap-2 xl:w-2/3 xl:py-0'>
+				<div className='py-8 flex col gap-8 flex-wrap justify-center md:py-12 md:gap-2 xl:w-2/3 xl:py-0 xl:justify-end'>
 					{traitsData.map((trait) => (
 						<WhyUsItem data={trait} key={trait.alt} />
 					))}

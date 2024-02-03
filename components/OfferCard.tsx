@@ -5,12 +5,13 @@ type CardProps = {
 		title: string;
 		text: string;
 		link: string;
+		newForm?: boolean;
 	};
 };
 
 const Card = ({ data }: CardProps) => {
 	return (
-		<div className='flex flex-col  shadow-sm shadow-gray-500 bg-zinc-50 rounded-md  py-6 px-4 max-w-[300px] lg:max-w-[360px]  md:p-8'>
+		<div className='relative flex flex-col overflow-hidden  shadow-sm shadow-gray-500 bg-zinc-50 rounded-md  py-6 px-4 max-w-[300px] lg:max-w-[360px]  md:p-8'>
 			<div className='mb-6'>
 				<h3 className='text-blue-700 font-bold text-lg mb-2'>{data.title}</h3>
 				<p>{data.text}</p>
@@ -20,6 +21,11 @@ const Card = ({ data }: CardProps) => {
 				href={data.link}>
 				Zobacz szczegóły
 			</Link>
+			{data.newForm && (
+				<p className='absolute top-0 right-0 bg-red-700 text-white rounded-sm p-2 md:px-4'>
+					Nowa Norma!
+				</p>
+			)}
 		</div>
 	);
 };

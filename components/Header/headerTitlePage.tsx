@@ -21,7 +21,7 @@ const TitlePage = ({ width, isActive }: titlePageProps) => {
 				}`,
 			}}>
 			<div className='wrapper-lg flex flex-col h-full items-center justify-center px-10 md:px-24 md:items-start lg:bg-black lg:bg-opacity-40 lg:ml-0 lg:max-w-[60%] xl:max-w-[50%] z-10  '>
-				<h1 className='mt-6 mb-2 md:text-2xl text-shadow md:mt-0 md:mb-4 lg:my-10 xl:text-3xl '>
+				<h1 className='mt-6 mb-2 md:text-2xl text-shadow md:mt-0 md:mb-4 lg:my-10 xl:text-3xl xl:mr-28'>
 					<HighlightedSpan text='Jakość' /> to nasza misja,{' '}
 					<HighlightedSpan text='Doskonałość' /> to nasza droga.
 				</h1>

@@ -48,8 +48,6 @@ const Form = () => {
 		message: '',
 	});
 
-	
-
 	const handleSubmit = (e: any) => {
 		e.preventDefault();
 	};
@@ -59,7 +57,7 @@ const Form = () => {
 	};
 
 	return (
-		<form action='' onSubmit={handleSubmit}>
+		<form action='' className='md:mt-10' onSubmit={handleSubmit}>
 			{formRows.map((row) => (
 				<FormRow
 					{...row}
@@ -68,7 +66,9 @@ const Form = () => {
 					errMessage={row.errMessage}
 				/>
 			))}
-			<button className='btn'>Wyślij</button>
+			<button className='btn text-white w-full my-8 text-lg block mx-auto md:mt-10 md:max-w-[40%]'>
+				Wyślij
+			</button>
 		</form>
 	);
 };

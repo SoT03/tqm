@@ -11,7 +11,7 @@ type FormRowProps = {
 	type: string;
 	check?: any;
 	errMessage?: string;
-	pattern?: string;
+	pattern?: boolean;
 };
 
 const FormRow = ({
@@ -28,7 +28,9 @@ const FormRow = ({
 
 	const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
 
-	const checkHandler = (e) => {
+	const checkHandler = (
+		e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>
+	) => {
 		if (pattern) {
 			setIsValid(emailRegex.test(e.target.value));
 			onChange(e);
@@ -74,7 +76,7 @@ const FormRow = ({
 	}
 
 	return (
-		<div className='relative my-6'>
+		<div className='relative my-6 md:my-8'>
 			{content}
 			<label
 				htmlFor={labelId}

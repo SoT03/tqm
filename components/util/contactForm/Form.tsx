@@ -1,38 +1,74 @@
+import { useState } from 'react';
 import FormRow from './FormRow';
 
 const formRows = [
 	{
 		label: 'Imię i nazwisko',
-		labelId: 'Name',
+		labelId: 'name',
 		required: true,
+		errMessage: 'Podaj imię i nazwisko.',
+		type: 'text',
 	},
 	{
 		label: 'Nazwa oragnizacji',
-		labelId: 'OrgName',
+		labelId: 'orgName',
+		type: 'text',
+		required: false,
 	},
 	{
 		label: 'Nr. telefonu',
-		labelId: 'TelNumber',
+		labelId: 'telNumber',
+		type: 'text',
+		required: false,
 	},
 	{
 		label: 'e-mail',
 		labelId: 'email',
 		required: true,
+		errMessage: 'Podaj poprawny adres e-mail.',
+		type: 'text',
+		pattern: true,
 	},
 	{
 		label: 'Wiadomość',
 		labelId: 'message',
 		required: true,
 		textarea: true,
+		errMessage: 'Wiadomość nie może być pusta.',
+		type: 'text',
 	},
 ];
 
 const Form = () => {
+	const [values, setValues] = useState({
+		name: '',
+		orgName: '',
+		telNumber: '',
+		email: '',
+		message: '',
+	});
+
+	
+
+	const handleSubmit = (e: any) => {
+		e.preventDefault();
+	};
+
+	const changeHandler = (e: any) => {
+		setValues({ ...values, [e.target.name]: e.target.value });
+	};
+
 	return (
-		<form action=''>
+		<form action='' onSubmit={handleSubmit}>
 			{formRows.map((row) => (
-				<FormRow data={row} key={row.labelId} />
+				<FormRow
+					{...row}
+					key={row.labelId}
+					onChange={changeHandler}
+					errMessage={row.errMessage}
+				/>
 			))}
+			<button className='btn'>Wyślij</button>
 		</form>
 	);
 };

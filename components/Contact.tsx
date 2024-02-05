@@ -1,4 +1,5 @@
 import ContactRow from './ContactRow';
+import Form from './util/contactForm/Form';
 import Section from './util/section/Section';
 import SectionTitle from './util/section/SectionTitle';
 import {
@@ -30,7 +31,7 @@ const contactData = [
 const Contact = () => {
 	return (
 		<Section id='contact' classes='bg-slate-100'>
-			<div className='flex flex-col'>
+			<div className='flex flex-col gap-8'>
 				<div className=''>
 					<SectionTitle title='Skontaktuj się z nami' />
 					<div className='mt-6'>
@@ -41,6 +42,7 @@ const Contact = () => {
 				</div>
 				<div>
 					<SectionTitle title='Wyślij nam wiadomość' classes='hidden' />
+					<Form />
 				</div>
 			</div>
 		</Section>

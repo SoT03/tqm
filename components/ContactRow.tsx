@@ -24,7 +24,7 @@ const ContactRow = ({ data }: RowProps) => {
 	}
 
 	return (
-		<div className='flex gap-2 my-2'>
+		<div className='flex gap-2 my-2 md:gap-3 text-lg md:items-center'>
 			{data.icon} {content}{' '}
 			{data.mobileOnly && <p className='hidden md:block'>{data.text}</p>}
 		</div>

@@ -8,22 +8,20 @@ import {
 	IconMapPinFilled,
 } from '@tabler/icons-react';
 
-const iconClass = '';
-
 const contactData = [
 	{
-		icon: <IconPhoneFilled className={iconClass} />,
+		icon: <IconPhoneFilled />,
 		text: '+48 518 053 702',
 		href: 'tel:518053702',
 		mobileOnly: true,
 	},
 	{
-		icon: <IconMailFilled className={iconClass} />,
+		icon: <IconMailFilled />,
 		text: 'biuro@tqmpartners.pl',
 		href: 'mailto:biuro@tqmpartners.pl',
 	},
 	{
-		icon: <IconMapPinFilled className={iconClass} />,
+		icon: <IconMapPinFilled />,
 		text: 'ul. Tuwima 16/33 05-084 Leszno',
 	},
 ];

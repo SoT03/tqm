@@ -5,10 +5,10 @@ import { useEffect, useState } from 'react';
 
 const navLinks: { name: string; link: string }[] = [
 	{ name: 'O nas', link: '/#aboutus' },
-	{ name: 'Wdrożenia', link: '/wdrożenia' },
+	{ name: 'Wdrożenia', link: '/wdrozenia' },
 	{ name: 'Audyty', link: '/audyty' },
 	{ name: 'Szkolenia', link: '/szkolenia' },
-	{ name: 'Kontakt', link: '/kontakt' },
+	{ name: 'Kontakt', link: '/#contact' },
 ];
 
 const Navbar = () => {
@@ -35,6 +35,7 @@ const Navbar = () => {
 						className='flex items-center uppercase font-semibold  '>
 						<p className='  lg:text-2xl'>tqm</p>
 						<Image
+							priority={false}
 							height={60}
 							width={80}
 							src='/img/logo.png'

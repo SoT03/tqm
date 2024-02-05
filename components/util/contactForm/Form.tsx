@@ -57,7 +57,7 @@ const Form = () => {
 	};
 
 	return (
-		<form action='' className='md:mt-10' onSubmit={handleSubmit}>
+		<form action='' className='md:mt-10 ' onSubmit={handleSubmit}>
 			{formRows.map((row) => (
 				<FormRow
 					{...row}

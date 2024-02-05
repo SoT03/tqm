@@ -42,15 +42,15 @@ const Contact = () => {
 						))}
 					</div>
 					<iframe
-						className='hidden  w-full h-3/5  max-w-[35vw] lg:block '
+						className='hidden  w-full h-3/5  max-w-[35vw] lg:block xl:max-w-[30vw]'
 						src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.0559185000548!2d20.5808099!3d52.2605296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47194d00605ef69b%3A0x87049b859ecfd44f!2sTQM%20Partners%20Sp.%20z%20o.%20o.!5e0!3m2!1spl!2spl!4v1707161625180!5m2!1spl!2spl'
 						loading='lazy'
 						referrerPolicy='no-referrer-when-downgrade'></iframe>
 				</div>
-				<div className='lg:w-1/2 lg:py-8'>
+				<div className='lg:w-1/2 lg:py-8 lg:px-10 xl:pr-96 xl:pl-24'>
 					<SectionTitle
 						title='Wyślij nam wiadomość'
-						classes='hidden md:block '
+						classes='hidden md:block lg:pb-2'
 					/>
 					<Form />
 				</div>

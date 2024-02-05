@@ -67,7 +67,7 @@ const FormRow = ({
 				}}
 				id={labelId}
 				name={labelId}
-				className={`peer h-28 px-4 w-full border-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-sky-500 ${
+				className={`peer h-28 px-4 w-full border-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-sky-500 lg:h-36 ${
 					!isValid ? 'border-red-600' : ''
 				}`}
 				placeholder='john@doe.com'

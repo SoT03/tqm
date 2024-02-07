@@ -4,6 +4,7 @@ import {
 	IconPhoneFilled,
 	IconMailFilled,
 	IconMapPinFilled,
+	IconBrandFacebookFilled,
 } from '@tabler/icons-react';
 
 const contactData = [
@@ -41,17 +42,26 @@ const Footer = () => {
 	return (
 		<footer className='relative w-full bottom-0 bg-black text-white py-8 lg:px-10'>
 			<div className='wrapper flex flex-col  items-center gap-8 lg:flex-row lg:justify-center lg:gap-16'>
-				<div className='flex uppercase font-semibold cursor-default '>
-					<p className='text-xl  lg:text-3xl'>tqm</p>
-					<Image
-						height={60}
-						width={80}
-						src='/img/logo.png'
-						alt='TQM Partners'
-						className='w-8 mx-1 md:w-12'
-					/>{' '}
-					<p className='text-xl mr-2 lg:text-3xl '>Partners</p>{' '}
-					<p className='text-xl lg:text-3xl'> {year} &copy;</p>
+				<div className='flex flex-col items-center gap-4 uppercase font-semibold cursor-default '>
+					<div className='flex'>
+						<p className='text-xl  lg:text-3xl'>tqm</p>
+						<Image
+							height={60}
+							width={80}
+							src='/img/logo.png'
+							alt='TQM Partners'
+							className='w-8 mx-1 md:w-12'
+						/>{' '}
+						<p className='text-xl mr-2 lg:text-3xl '>Partners</p>{' '}
+						<p className='text-xl lg:text-3xl'> {year} &copy;</p>
+					</div>
+
+					<Link
+						className='border-2 p-1 border-blue-500 rounded-sm'
+						target='_blank'
+						href='https://www.facebook.com/people/TQM-Partners/61555154324634/'>
+						<IconBrandFacebookFilled className='h-6 w-6 text-blue-500' />
+					</Link>
 				</div>
 				<div className='flex flex-col gap-1'>
 					<h3 className='font-bold text-lg mb-2'>Oferta</h3>
@@ -82,7 +92,10 @@ const Footer = () => {
 							</p>
 						))}
 					</div>
-					<Link href='/politykaPrywatnosci' className='hover:text-blue-400'>
+					<Link
+						target='_blank'
+						href='/polityka-prywatnosci'
+						className='hover:text-blue-400'>
 						Polityka Prywatności
 					</Link>
 				</div>

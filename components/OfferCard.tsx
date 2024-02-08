@@ -1,8 +1,9 @@
 import Link from 'next/link';
 
+
 type CardProps = {
 	data: {
-		title: string;
+		title: string | undefined;
 		text: string;
 		link: string;
 		newForm?: boolean;

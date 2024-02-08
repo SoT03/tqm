@@ -37,18 +37,18 @@ const offerList = [
 			{
 				title: 'ISO 9001',
 				text: 'System Zarządzania Jakością 9001:2015',
-				link: '/wdrozenia/iso9001/wdrozenie',
+				link: '/wdrozenia/iso9001/',
 			},
 			{
 				title: 'ISO 27001',
 				text: 'System Zarządzania Bezpieczeństwem Informacji 27001:2022',
-				link: '/wdrozenia/iso27001/wdrozenie',
+				link: '/wdrozenia/iso27001/',
 				newForm: true,
 			},
 			{
 				title: 'ISO 45001',
 				text: 'System Zarządzania Bezpieczeństwem i Higieną Pracy 45001:2018',
-				link: '/wdrozenia/iso9001/wdrozenie',
+				link: '/wdrozenia/iso9001/',
 			},
 		],
 	},

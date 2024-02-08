@@ -57,10 +57,11 @@ const Footer = () => {
 					</div>
 
 					<Link
-						className='border-2 p-1 border-blue-500 rounded-sm'
+						className='flex '
 						target='_blank'
-						href='https://www.facebook.com/people/TQM-Partners/61555154324634/'>
-						<IconBrandFacebookFilled className='h-6 w-6 text-blue-500' />
+						href='https://www.facebook.com/profile.php?id=61555154324634'>
+						<IconBrandFacebookFilled className='h-6 w-6 border-blue-500 border-2 p-0.5 rounded-sm text-blue-500' />
+						<span className='lowercase ml-2'>www.facebook.com</span>
 					</Link>
 				</div>
 				<div className='flex flex-col gap-1'>

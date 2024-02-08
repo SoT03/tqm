@@ -1,0 +1,75 @@
+[
+	{
+		"id": "iso9001",
+		"name": "ISO:9001",
+		"data": {
+			"desc": "System Zarządzania Jakością 9001:2015",
+			"link": "/wdrozenia/iso9001/"
+		}
+	},
+	{
+		"id": "iso14001",
+		"name": "ISO:14001",
+		"data": {
+			"desc": "System Zarządzania Środowiskowego ISO 14001:2015",
+			"link": "/wdrozenia/iso14001/"
+		}
+	},
+	{
+		"id": "iso27001",
+		"name": "ISO:27001",
+		"data": {
+			"desc": "System Zarządzania Bezpieczeństwem Informacji 27001:2022",
+			"link": "/wdrozenia/iso27001/"
+		}
+	},
+	{
+		"id": "iso45001",
+		"name": "ISO:45001",
+		"data": {
+			"desc": "System Zarządzania Bezpieczeństwem i Higieną Pracy 45001:2018",
+			"link": "/wdrozenia/iso45001/"
+		}
+	},
+	{
+		"id": "iso22301",
+		"name": "ISO:22301",
+		"data": {
+			"desc": "System Zarządzania Ciągłością Działania Business Continuity Management Systems (BCMS)",
+			"link": "/wdrozenia/iso22301/"
+		}
+	},
+	{
+		"id": "iso22000",
+		"name": "ISO:22000",
+		"data": {
+			"desc": "System zapewnienia bezpieczeństwa żywności HACCP",
+			"link": "/wdrozenia/iso22000/"
+		}
+	},
+
+	{
+		"id": "aqap",
+		"name": "AQAP",
+		"data": {
+			"desc": "System zarządzania jakością dla dostawców wojska",
+			"link": "/wdrozenia/AQAP/"
+		}
+	},
+	{
+		"id": "dpd",
+		"name": "DPD",
+		"data": {
+			"desc": "(Good Distribution Practice, GDP) - Dobra Praktyka Dystrybucyjna",
+			"link": "/wdrozenia/DPD/"
+		}
+	},
+	{
+		"id": "agredytacja-szpitali",
+		"name": "Program agredytacji",
+		"data": {
+			"desc": "Zestaw standardów akredytacyjnych szpitali oraz POZ",
+			"link": "/wdrozenia/agredytacja-szpitali/"
+		}
+	}
+]

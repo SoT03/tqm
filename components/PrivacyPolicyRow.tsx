@@ -25,7 +25,7 @@ const PrivacyPolicyRow = ({ title, content }: RowProps) => {
 				/>
 			</button>
 			<div
-				className={`grid  overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
+				className={`grid  overflow-hidden transition-all duration-700 ease-in-out text-slate-600 text-sm ${
 					accordionOpen
 						? 'grid-rows-[1fr] opacity-100 my-4'
 						: 'grid-rows-[0fr] opacity-0'

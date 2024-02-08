@@ -25,9 +25,10 @@ const MainSection = () => {
 					<Card
 						key={item.id}
 						data={{
-							link: item.data.link,
-							text: item.data.desc,
+							link: item.info.link,
+							text: item.info.desc,
 							title: item.name,
+							newForm: item.newForm,
 						}}
 					/>
 				))}

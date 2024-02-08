@@ -2,74 +2,330 @@
 	{
 		"id": "iso9001",
 		"name": "ISO:9001",
-		"data": {
+		"info": {
 			"desc": "System Zarządzania Jakością 9001:2015",
-			"link": "/wdrozenia/iso9001/"
+			"link": "/wdrozenia/iso9001/",
+			"benefits": [
+				{
+					"title": "Poprawa jakości produktów/usług",
+					"text": "ISO 9001 pomaga w ustanowieniu standardów, procedur i polityk mających na celu zapewnienie wysokiej jakości produktów i usług."
+				},
+				{
+					"title": "Zwiększenie zaufania klientów",
+					"text": "Posiadanie certyfikatu ISO 9001 świadczy o zaangażowaniu firmy w zapewnienie wysokiej jakości produktów/usług, co z kolei zwiększa zaufanie klientów."
+				},
+				{
+					"title": "Optymalizacja procesów",
+					"text": "Wdrożenie ISO 9001 wymaga dokładnego przejrzenia i standaryzacji procesów w firmie, co może prowadzić do eliminacji zbędnych działań, redukcji kosztów i zwiększenia efektywności operacyjnej."
+				},
+				{
+					"title": "Zwiększenie satysfakcji pracowników",
+					"text": "Skuteczny system zarządzania jakością może przyczynić się do lepszego zrozumienia ról i odpowiedzialności pracowników, co może prowadzić do zwiększenia ich zaangażowania i satysfakcji zawodowej."
+				},
+				{
+					"title": "Ulepszenie procesu podejmowania decyzji",
+					"text": "System zarządzania jakością oparty na ISO 9001 promuje podejście oparte na dowodach i analizach danych, co umożliwia podejmowanie lepiej poinformowanych decyzji."
+				},
+				{
+					"title": "Zwiększenie konkurencyjności",
+					"text": "Posiadanie certyfikatu ISO 9001 może być ważnym wyróżnikiem na rynku, co może pomóc firmie w zdobyciu przewagi konkurencyjnej nad innymi firmami."
+				},
+				{
+					"title": "Zgodność z wymaganiami rynkowymi",
+					"text": "Wiele organizacji, zwłaszcza w sektorach takich jak motoryzacja, przemysł lotniczy czy medyczny, wymaga, aby ich dostawcy mieli certyfikat ISO 9001."
+				}
+			],
+			"description": "ISO 9001 to międzynarodowa norma dotycząca systemu zarządzania jakością, opracowana przez Międzynarodową Organizację Normalizacyjną (ISO). Norma ta określa wymagania, jakie musi spełniać system zarządzania jakością w organizacji, niezależnie od jej rodzaju i wielkości. Celem ISO 9001 jest zapewnienie, że organizacja ma zdolność do dostarczania produktów i usług zgodnych z wymaganiami klientów oraz przepisami prawymi i regulacjami."
 		}
 	},
 	{
 		"id": "iso14001",
 		"name": "ISO:14001",
-		"data": {
+		"info": {
 			"desc": "System Zarządzania Środowiskowego ISO 14001:2015",
-			"link": "/wdrozenia/iso14001/"
+			"link": "/wdrozenia/iso14001/",
+			"benefits": [
+				{
+					"title": "Ograniczenie wpływu na środowisko naturalne",
+					"text": "Wdrożenie ISO 14001 pomaga organizacji ograniczyć negatywny wpływ na środowisko naturalne poprzez identyfikację i kontrolę aspektów środowiskowych."
+				},
+				{
+					"title": "Zgodność z przepisami i regulacjami środowiskowymi",
+					"text": "ISO 14001 pomaga organizacji zapewnić zgodność z obowiązującymi przepisami, regulacjami i innymi wymaganiami dotyczącymi ochrony środowiska."
+				},
+				{
+					"title": "Zwiększenie efektywności w wykorzystaniu zasobów",
+					"text": "Dzięki ISO 14001 organizacje mogą identyfikować sposoby zwiększania efektywności w wykorzystaniu zasobów naturalnych, energii i surowców."
+				},
+				{
+					"title": "Poprawa wizerunku i reputacji",
+					"text": "Posiadanie certyfikatu ISO 14001 świadczy o zaangażowaniu organizacji w ochronę środowiska, co może przyczynić się do poprawy wizerunku i reputacji firmy."
+				},
+				{
+					"title": "Zwiększenie zaufania klientów i interesariuszy",
+					"text": "Organizacje posiadające certyfikat ISO 14001 mogą zyskać zaufanie klientów i innych interesariuszy poprzez demonstrację zobowiązania do ochrony środowiska."
+				},
+				{
+					"title": "Redukcja kosztów związanych z ochroną środowiska",
+					"text": "ISO 14001 może pomóc organizacjom w identyfikacji możliwości redukcji kosztów związanych z zużyciem energii, odpadami i innymi aspektami związanymi z ochroną środowiska."
+				}
+			],
+			"description": "ISO 14001 jest międzynarodowym standardem dotyczącym zarządzania środowiskowego. Opracowany przez Międzynarodową Organizację Normalizacyjną (ISO), ISO 14001 określa wymagania dla systemu zarządzania środowiskowego w organizacji. Standard ten ma na celu pomoc organizacjom w identyfikowaniu, monitorowaniu, kontrolowaniu i poprawianiu ich wpływu na środowisko naturalne oraz zgodność z obowiązującymi przepisami i regulacjami dotyczącymi ochrony środowiska."
 		}
 	},
 	{
 		"id": "iso27001",
 		"name": "ISO:27001",
-		"data": {
+		"info": {
 			"desc": "System Zarządzania Bezpieczeństwem Informacji 27001:2022",
-			"link": "/wdrozenia/iso27001/"
-		}
+			"link": "/wdrozenia/iso27001/",
+			"description": "ISO/IEC 27001 to międzynarodowy standard dotyczący zarządzania bezpieczeństwem informacji. Standard ten określa wymagania dla systemu zarządzania bezpieczeństwem informacji (ISMS - Information Security Management System), który pomaga organizacjom identyfikować, oceniać i zarządzać ryzykiem związanym z bezpieczeństwem informacji. Główne cele ISO/IEC 27001 obejmują zapewnienie poufności, integralności i dostępności informacji w organizacji, chroniąc je przed nieuprawnionym dostępem, manipulacją lub utratą. Standard ten obejmuje także procesy zarządzania ryzykiem, audyty bezpieczeństwa informacji oraz ciągłe doskonalenie systemu zarządzania bezpieczeństwem informacji.",
+			"benefits": [
+				{
+					"title": "Ochrona aktywów informacyjnych",
+					"text": "ISO/IEC 27001 pomaga firmom w identyfikacji i ochronie aktywów informacyjnych, w tym danych klientów, własności intelektualnej i poufnych informacji biznesowych."
+				},
+				{
+					"title": "Zgodność z wymaganiami prawno-regulacyjnymi",
+					"text": "Wdrożenie ISO/IEC 27001 pomaga firmom spełnić wymagania prawne i regulacyjne dotyczące bezpieczeństwa informacji, takie jak ogólne rozporządzenie o ochronie danych (RODO) w Unii Europejskiej."
+				},
+				{
+					"title": "Zwiększenie zaufania klientów",
+					"text": "Posiadanie certyfikatu ISO/IEC 27001 może zwiększyć zaufanie klientów do firmy, ponieważ świadczy o zaangażowaniu w ochronę ich danych osobowych i poufnych informacji."
+				},
+				{
+					"title": "Zarządzanie ryzykiem związanym z bezpieczeństwem informacji",
+					"text": "ISO/IEC 27001 umożliwia firmom identyfikację, ocenę i zarządzanie ryzykiem związanym z bezpieczeństwem informacji, co przyczynia się do minimalizacji skutków potencjalnych zagrożeń."
+				},
+				{
+					"title": "Zwiększenie efektywności operacyjnej",
+					"text": "Wdrożenie systemu zarządzania bezpieczeństwem informacji umożliwia firmom wprowadzenie efektywnych procesów i procedur dotyczących ochrony informacji, co może przyczynić się do zwiększenia efektywności operacyjnej."
+				},
+				{
+					"title": "Poprawa reputacji i wizerunku firmy",
+					"text": "Posiadanie certyfikatu ISO/IEC 27001 może poprawić reputację i wizerunek firmy jako wiarygodnego partnera biznesowego, który dba o bezpieczeństwo swoich informacji oraz danych klientów."
+				},
+				{
+					"title": "Ciągłe doskonalenie systemu bezpieczeństwa informacji",
+					"text": "ISO/IEC 27001 promuje ciągłe doskonalenie systemu zarządzania bezpieczeństwem informacji poprzez regularne audyty, ocenę skuteczności działań oraz wdrażanie ulepszeń."
+				}
+			]
+		},
+		"newForm": true
 	},
 	{
 		"id": "iso45001",
 		"name": "ISO:45001",
-		"data": {
+		"info": {
 			"desc": "System Zarządzania Bezpieczeństwem i Higieną Pracy 45001:2018",
-			"link": "/wdrozenia/iso45001/"
+			"link": "/wdrozenia/iso45001/",
+			"description": "ISO 45001 jest międzynarodowym standardem dotyczącym zarządzania bezpieczeństwem i higieną pracy. Jest to pierwszy globalny standard, który obejmuje wymagania dotyczące systemu zarządzania bezpieczeństwem i higieną pracy, mające na celu zapobieganie wypadkom, urazom i problemom zdrowotnym związanym z pracą. Główne cele ISO 45001 obejmują zapewnienie bezpiecznego i zdrowego środowiska pracy dla pracowników oraz zapobieganie wypadkom i chorobom związanym z pracą. Standard ten opiera się na zasadach ciągłego doskonalenia, zaangażowania pracowników i zintegrowanego podejścia do zarządzania bezpieczeństwem i higieną pracy.",
+			"benefits": [
+				{
+					"title": "Zapobieganie wypadkom i urazom",
+					"text": "ISO 45001 pomaga firmom identyfikować, oceniać i kontrolować ryzyko związane z bezpieczeństwem i higieną pracy, co przyczynia się do zmniejszenia liczby wypadków i urazów w miejscu pracy."
+				},
+				{
+					"title": "Poprawa zdrowia i samopoczucia pracowników",
+					"text": "Dzięki skutecznemu zarządzaniu bezpieczeństwem i higieną pracy, ISO 45001 może przyczynić się do poprawy zdrowia i samopoczucia pracowników, co z kolei może wpłynąć na wzrost morale i motywacji w miejscu pracy."
+				},
+				{
+					"title": "Zmniejszenie kosztów związanych z wypadkami i chorobami zawodowymi",
+					"text": "Poprawa bezpieczeństwa i higieny pracy może przyczynić się do zmniejszenia kosztów związanych z wypadkami, chorobami zawodowymi, absencją chorobową i związanymi z nimi kosztami dla firmy."
+				},
+				{
+					"title": "Zgodność z przepisami i regulacjami",
+					"text": "ISO 45001 pomaga firmom spełnić obowiązujące przepisy, regulacje i inne wymagania dotyczące bezpieczeństwa i higieny pracy, co zapewnia zgodność z prawem i minimalizuje ryzyko kar i sankcji."
+				},
+				{
+					"title": "Zwiększenie zaufania interesariuszy",
+					"text": "Posiadanie certyfikatu ISO 45001 może zwiększyć zaufanie interesariuszy, w tym klientów, pracowników, partnerów biznesowych i społeczności lokalnej, do firmy jako odpowiedzialnego pracodawcy dbającego o bezpieczeństwo i zdrowie pracowników."
+				},
+				{
+					"title": "Ciągłe doskonalenie systemu bezpieczeństwa i higieny pracy",
+					"text": "ISO 45001 promuje ciągłe doskonalenie poprzez okresowe przeglądy, monitorowanie wskaźników wydajności, analizę przyczyn wypadków i wprowadzanie ulepszeń do systemu zarządzania."
+				}
+			]
 		}
 	},
 	{
 		"id": "iso22301",
 		"name": "ISO:22301",
-		"data": {
+		"info": {
 			"desc": "System Zarządzania Ciągłością Działania Business Continuity Management Systems (BCMS)",
-			"link": "/wdrozenia/iso22301/"
+			"link": "/wdrozenia/iso22301/",
+			"description": "ISO 22301 jest międzynarodowym standardem zarządzania ciągłością działania, który określa wymagania dotyczące opracowania, wdrożenia, monitorowania, utrzymywania i ciągłego doskonalenia systemu zarządzania ciągłością działania (BCMS - Business Continuity Management System). Standard ten został stworzony w celu zapewnienia organizacjom możliwości kontynuowania swojej działalności w przypadku wystąpienia zakłóceń, awarii, katastrof lub innych incydentów. Główne cele ISO 22301 obejmują zapewnienie ciągłości działania organizacji poprzez identyfikację zagrożeń, ocenę ryzyka, opracowanie planów awaryjnych i zapewnienie szybkiego przywrócenia działalności w przypadku zakłóceń.",
+			"benefits": [
+				{
+					"title": "Minimalizacja przestojów w działalności",
+					"text": "ISO 22301 pomaga organizacjom minimalizować przestoje w działalności poprzez identyfikację kluczowych procesów i zasobów, opracowanie planów awaryjnych oraz szybkie przywrócenie działalności po wystąpieniu incydentów."
+				},
+				{
+					"title": "Ochrona reputacji i zaufania klientów",
+					"text": "Posiadanie certyfikatu ISO 22301 może zwiększyć zaufanie klientów i partnerów biznesowych do organizacji, ponieważ świadczy o jej zdolności do skutecznego zarządzania kryzysami i minimalizowania skutków zakłóceń."
+				},
+				{
+					"title": "Zgodność z wymaganiami regulacyjnymi",
+					"text": "ISO 22301 pomaga organizacjom spełnić wymagania regulacyjne i prawne dotyczące ciągłości działania, co może zminimalizować ryzyko kar i sankcji ze strony organów regulacyjnych."
+				},
+				{
+					"title": "Redukcja strat finansowych",
+					"text": "Skuteczne zarządzanie ciągłością działania może pomóc organizacjom zmniejszyć straty finansowe związane z przestojami w działalności, utratą klientów, reputacji i zaufania."
+				},
+				{
+					"title": "Zwiększenie zdolności adaptacji do zmian",
+					"text": "ISO 22301 promuje ciągłe doskonalenie i adaptację do zmian w otoczeniu biznesowym, co umożliwia organizacjom lepsze radzenie sobie z nowymi wyzwaniami i zagrożeniami."
+				},
+				{
+					"title": "Zapewnienie spójności i ciągłości operacyjnej",
+					"text": "Standard ISO 22301 pomaga organizacjom zapewnić spójność i ciągłość operacyjną poprzez określenie klarownych procedur, odpowiedzialności i procesów awaryjnych."
+				},
+				{
+					"title": "Poprawa zdolności do szybkiego reagowania na kryzysy",
+					"text": "Dzięki ISO 22301 organizacje mogą być lepiej przygotowane do szybkiego reagowania na kryzysy i incydenty, co minimalizuje skutki zakłóceń dla działalności."
+				}
+			]
 		}
 	},
 	{
 		"id": "iso22000",
 		"name": "ISO:22000",
-		"data": {
+		"info": {
 			"desc": "System zapewnienia bezpieczeństwa żywności HACCP",
-			"link": "/wdrozenia/iso22000/"
+			"link": "/wdrozenia/iso22000/",
+			"description": "ISO 22000 jest międzynarodowym standardem dotyczącym zarządzania bezpieczeństwem żywności, który określa wymagania dotyczące systemu zarządzania bezpieczeństwem żywności w organizacjach działających w łańcuchu żywnościowym, od producentów żywności, dostawców składników po usługi żywieniowe. Głównym celem ISO 22000 jest zapewnienie bezpieczeństwa żywności poprzez kontrolę zagrożeń biologicznych, chemicznych i fizycznych w procesie produkcji, przetwarzania, przechowywania i dystrybucji żywności.",
+			"benefits": [
+				{
+					"title": "Zapewnienie bezpieczeństwa żywności",
+					"text": "ISO 22000 pomaga firmom zapewnić bezpieczeństwo żywności poprzez identyfikację, ocenę i kontrolę zagrożeń biologicznych, chemicznych i fizycznych w procesie produkcji żywności."
+				},
+				{
+					"title": "Zwiększenie zaufania klientów",
+					"text": "Posiadanie certyfikatu ISO 22000 może zwiększyć zaufanie klientów do firmy, ponieważ świadczy o jej zaangażowaniu w zapewnienie wysokiej jakości i bezpieczeństwa żywności."
+				},
+				{
+					"title": "Zgodność z przepisami i regulacjami",
+					"text": "ISO 22000 pomaga firmom spełnić obowiązujące przepisy i regulacje dotyczące bezpieczeństwa żywności, co zapewnia zgodność z prawem i minimalizuje ryzyko kar i sankcji."
+				},
+				{
+					"title": "Minimalizacja ryzyka zatrucia żywnością",
+					"text": "Skuteczne zarządzanie bezpieczeństwem żywności zgodnie z ISO 22000 może pomóc w minimalizacji ryzyka zatrucia żywnością i związanych z tym negatywnych skutków zdrowotnych dla konsumentów."
+				},
+				{
+					"title": "Poprawa efektywności procesów produkcyjnych",
+					"text": "ISO 22000 promuje ciągłe doskonalenie procesów produkcyjnych poprzez identyfikację obszarów wymagających ulepszeń w zakresie bezpieczeństwa żywności oraz wprowadzanie odpowiednich działań korygujących."
+				},
+				{
+					"title": "Zwiększenie konkurencyjności na rynku",
+					"text": "Posiadanie certyfikatu ISO 22000 może zwiększyć konkurencyjność firmy na rynku poprzez potwierdzenie zgodności z międzynarodowymi standardami bezpieczeństwa żywności i zaspokojenie oczekiwań klientów."
+				}
+			]
 		}
 	},
 
 	{
 		"id": "aqap",
 		"name": "AQAP",
-		"data": {
+		"info": {
 			"desc": "System zarządzania jakością dla dostawców wojska",
-			"link": "/wdrozenia/AQAP/"
+			"link": "/wdrozenia/AQAP/",
+			"description": "AQAP, czyli Allied Quality Assurance Publications, to seria standardów opracowanych przez NATO w celu zapewnienia jednolitych wymagań dotyczących jakości produktów i usług w sektorze obronnym. AQAP dotyczy głównie dostawców i kontraktorów, którzy dostarczają produkty, usługi i rozwiązania dla potrzeb wojskowych.",
+			"benefits": [
+				{
+					"title": "Zgodność z wymogami kontraktowymi",
+					"text": "Posiadanie certyfikatu AQAP jest często wymagane przez kontrakty obronne. Wdrożenie tych standardów pozwala firmie spełnić te wymagania i zdobyć dostęp do nowych kontraktów."
+				},
+				{
+					"title": "Poprawa jakości produktów i usług",
+					"text": "System zarządzania jakością zgodny z AQAP pomaga firmie w identyfikacji obszarów do poprawy oraz w implementacji procesów, które prowadzą do lepszej jakości produktów i usług."
+				},
+				{
+					"title": "Zwiększenie zaufania klientów",
+					"text": "Posiadanie certyfikatu AQAP może zwiększyć zaufanie klientów do firmy, ponieważ świadczy o jej zdolności do spełniania wysokich standardów jakościowych."
+				},
+				{
+					"title": "Optymalizacja procesów",
+					"text": "Wdrożenie systemu zarządzania jakością pozwala firmie na optymalizację procesów biznesowych, co może prowadzić do większej efektywności i oszczędności kosztów."
+				},
+				{
+					"title": "Zwiększenie konkurencyjności",
+					"text": "Posiadanie certyfikatu AQAP może zwiększyć konkurencyjność firmy na rynku obronnym, ponieważ potencjalni klienci często preferują współpracę z dostawcami posiadającymi odpowiednie certyfikaty."
+				},
+				{
+					"title": "Ułatwienie współpracy międzynarodowej",
+					"text": "Standardy AQAP są powszechnie akceptowane na arenie międzynarodowej, co ułatwia współpracę z partnerami i dostawcami z innych krajów."
+				}
+			]
 		}
 	},
 	{
 		"id": "dpd",
 		"name": "DPD",
-		"data": {
+		"info": {
 			"desc": "(Good Distribution Practice, GDP) - Dobra Praktyka Dystrybucyjna",
-			"link": "/wdrozenia/DPD/"
+			"link": "/wdrozenia/DPD/",
+			"description": "DPD (Good Distribution Practice) to zestaw zasad i wytycznych dotyczących praktyk prawidłowej dystrybucji produktów farmaceutycznych, które mają na celu zapewnienie jakości, integralności i bezpieczeństwa tych produktów podczas całego procesu dystrybucji, począwszy od producenta aż do ostatecznego punktu dystrybucji, np. apteki lub pacjenta.",
+			"benefits": [
+				{
+					"title": "Zapewnienie jakości produktów",
+					"text": "DPD pomaga firmom farmaceutycznym utrzymać wysokie standardy jakości podczas dystrybucji produktów, co jest kluczowe dla zapewnienia bezpieczeństwa i skuteczności leków."
+				},
+				{
+					"title": "Zgodność z przepisami i regulacjami",
+					"text": "Wdrożenie DPD pozwala firmom farmaceutycznym spełnić obowiązujące przepisy i regulacje dotyczące dystrybucji leków, co minimalizuje ryzyko naruszenia prawa i sankcji."
+				},
+				{
+					"title": "Minimalizacja ryzyka zanieczyszczeń i uszkodzeń",
+					"text": "DPD zawiera wytyczne dotyczące przechowywania, transportu i obsługi produktów farmaceutycznych, co pomaga w minimalizacji ryzyka zanieczyszczeń i uszkodzeń podczas dystrybucji."
+				},
+				{
+					"title": "Zwiększenie zaufania klientów i pacjentów",
+					"text": "Posiadanie certyfikatu DPD może zwiększyć zaufanie klientów i pacjentów do firmy farmaceutycznej, świadcząc o jej zaangażowaniu w zapewnienie bezpieczeństwa i jakości dostarczanych produktów."
+				},
+				{
+					"title": "Poprawa efektywności operacyjnej",
+					"text": "DPD zachęca do wprowadzania skutecznych systemów zarządzania zapasami, co może przyczynić się do poprawy efektywności operacyjnej firmy poprzez lepsze zarządzanie zapasami i redukcję strat."
+				},
+				{
+					"title": "Ochrona reputacji i marki",
+					"text": "Wprowadzenie DPD stanowi istotny krok dla firm farmaceutycznych w ochronie reputacji i marki poprzez zapewnienie bezpiecznej i skutecznej dystrybucji produktów."
+				}
+			]
 		}
 	},
 	{
 		"id": "agredytacja-szpitali",
 		"name": "Program agredytacji",
-		"data": {
+		"info": {
 			"desc": "Zestaw standardów akredytacyjnych szpitali oraz POZ",
-			"link": "/wdrozenia/agredytacja-szpitali/"
+			"link": "/wdrozenia/agredytacja-szpitali/",
+			"description": "Akredytacja szpitali to proces, w którym niezależna organizacja ocenia i potwierdza, że dany szpital spełnia określone standardy jakości opieki zdrowotnej i zarządzania. Celem akredytacji jest zapewnienie pacjentom wysokiej jakości opieki, bezpieczeństwa i satysfakcji, a także ciągłe doskonalenie działalności szpitala.",
+			"benefits": [
+				{
+					"title": "Poprawa jakości opieki zdrowotnej",
+					"text": "Proces akredytacji pozwala na ocenę i potwierdzenie, że szpital spełnia określone standardy opieki zdrowotnej, co prowadzi do poprawy jakości świadczonych usług medycznych."
+				},
+				{
+					"title": "Zwiększenie zaufania pacjentów",
+					"text": "Posiadanie akredytacji może zwiększyć zaufanie pacjentów do szpitala, ponieważ świadczy o jego zobowiązaniu do wysokich standardów jakościowych i bezpieczeństwa pacjentów."
+				},
+				{
+					"title": "Poprawa reputacji szpitala",
+					"text": "Akredytacja potwierdza, że szpital działa zgodnie z najlepszymi praktykami opieki zdrowotnej, co może przyczynić się do poprawy reputacji i wizerunku szpitala."
+				},
+				{
+					"title": "Redukcja ryzyka i błędów medycznych",
+					"text": "Wdrożenie standardów akredytacyjnych może pomóc w identyfikacji obszarów ryzyka i błędów w opiece zdrowotnej, co prowadzi do ich redukcji i zwiększenia bezpieczeństwa pacjentów."
+				},
+				{
+					"title": "Ciągłe doskonalenie procesów",
+					"text": "Proces akredytacji wymaga ciągłego doskonalenia i monitorowania działań szpitala, co prowadzi do ulepszania procesów opieki zdrowotnej i zarządzania."
+				},
+				{
+					"title": "Zgodność z wymogami prawno-regulacyjnymi",
+					"text": "Posiadanie akredytacji pozwala szpitalowi na spełnienie wymogów prawnych i regulacyjnych dotyczących świadczenia usług medycznych, co minimalizuje ryzyko kar i sankcji."
+				}
+			]
 		}
 	}
 ]

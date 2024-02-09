@@ -1,7 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import { GetStaticProps } from 'next';
-import { IconCertificate, IconSettingsUp } from '@tabler/icons-react';
+import { IconSettingsUp } from '@tabler/icons-react';
+import Link from 'next/link';
 
 export const getStaticPaths = async () => {
 	const filePath = path.join(process.cwd(), 'data', 'implementationData.json');
@@ -65,6 +66,23 @@ const Details = ({ data }: DetailsProps) => {
 								Czym jest ?
 							</h3>
 							<p className='lg:text-lg'>{data.info.description}</p>
+							{data.id === 'agredytacja-szpitali' && (
+								<div className=''>
+									{' '}
+									<Link
+										className='underline md:mr-10'
+										target='_blank'
+										href='https://www.cmj.org.pl/dodatki.php?plik=b40204daa95caf4c6c16ee038279dee4'>
+										Program Akredytacji Szpitali
+									</Link>{' '}
+									<Link
+										className='underline'
+										target='_blank'
+										href='https://www.cmj.org.pl/dodatki.php?plik=b40204daa95caf4c6c16ee038279dee4'>
+										Program Akredytacji POZ
+									</Link>{' '}
+								</div>
+							)}
 						</div>
 					</div>
 				</section>
@@ -86,6 +104,56 @@ const Details = ({ data }: DetailsProps) => {
 								))}
 							</ul>
 						</div>
+					</div>
+				</section>
+				<section className='my-10 lg:my-20'>
+					<div className='wrapper'>
+						<h2 className='text-2xl font-bold text-sky-600 text-center mb-4 md:mb-10 md:text-4xl'>
+							Etapy wdrożenia systemu
+						</h2>
+						<ul className='px-8 md:px-20 '>
+							<li className='my-2 list-disc md:my-4'>
+								<strong>Analiza i diagnoza sytuacji:</strong> Na tym etapie
+								organizacja dokonuje analizy swojej aktualnej sytuacji pod
+								względem zarządzania. To obejmuje ocenę istniejących procesów,
+								procedur, zasobów ludzkich i infrastruktury technologicznej.
+							</li>
+							<li className='my-2 list-disc md:my-4'>
+								<strong>Określenie celów:</strong> Organizacja definiuje cele,
+								jakie chce osiągnąć poprzez wdrożenie systemu zarządzania. Mogą
+								to być cele związane z poprawą jakości produktów lub usług,
+								zwiększeniem efektywności operacyjnej, zmniejszeniem kosztów lub
+								zwiększeniem satysfakcji klientów.
+							</li>
+
+							<li className='my-2 list-disc md:my-4'>
+								<strong>Projektowanie systemu:</strong> Na tym etapie
+								organizacja projektuje strukturę i procesy systemu zarządzania,
+								włączając w to procedury, dokumentację, kryteria oceny,
+								wskaźniki wydajności, itp.
+							</li>
+							<li className='my-2 list-disc md:my-4'>
+								<strong>Implementacja:</strong> To faza, w której organizacja
+								wprowadza zaprojektowany system zarządzania do praktyki. Wymaga
+								to szkoleń personelu, aktualizacji dokumentacji, wdrożenia
+								odpowiednich narzędzi i procesów oraz zastosowania odpowiednich
+								zmian organizacyjnych.
+							</li>
+							<li className='my-2 list-disc md:my-4'>
+								<strong>Monitorowanie i ocena:</strong> Organizacja regularnie
+								monitoruje i ocenia skuteczność działania systemu zarządzania
+								jakością. To obejmuje analizę wskaźników wydajności, ocenę
+								zgodności z wymaganiami standardów oraz identyfikację obszarów
+								do ciągłego doskonalenia.
+							</li>
+							<li className='my-2 list-disc md:my-4'>
+								<strong>Doskonalenie ciągłe:</strong> Na podstawie monitorowania
+								i oceny, organizacja podejmuje działania mające na celu ciągłe
+								doskonalenie systemu zarządzania jakością. Poprzez cykl
+								planowania, realizacji, oceny i działania (PDCA), system jest
+								stale ulepszany w celu osiągnięcia coraz lepszych rezultatów.
+							</li>
+						</ul>
 					</div>
 				</section>
 			</main>

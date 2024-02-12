@@ -1,5 +1,6 @@
 import Header from '@/components/wdrozenia/Header';
 import MainSection from '@/components/szkolenia/main';
+import Hero from '@/components/Hero';
 
 const Home = () => {
 	return (
@@ -15,6 +16,7 @@ const Home = () => {
 			/>
 			<main>
 				<MainSection />
+				<Hero text='Nie znalazłeś szkolenia którego szukasz lub potrzebujesz pomocy przy wyborze ?' />
 			</main>
 		</>
 	);

@@ -5,13 +5,14 @@ import { IconArrowBigRightLine } from '@tabler/icons-react';
 type RowProps = {
 	data: {
 		title: string;
+		newForm?: boolean;
 		trainings: { title: string; desc: string; link: string }[];
 	};
 };
 
 const TrainingRow = ({ data }: RowProps) => {
 	return (
-		<div className='my-16 '>
+		<div className='my-14 relative'>
 			<div className='mb-6'>
 				<h2 className='text-4xl font-bold text-center mb-1 lg:text-left'>
 					{data.title}
@@ -35,6 +36,11 @@ const TrainingRow = ({ data }: RowProps) => {
 					</li>
 				))}
 			</ul>
+			{data.newForm && (
+				<p className='absolute top-9 right-0 bg-red-700 text-white rounded-sm p-1 md:px-4 md:py-2 md:right-12 md:top-0 lg:right-2/3'>
+					Nowa Norma!
+				</p>
+			)}
 		</div>
 	);
 };

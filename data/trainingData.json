@@ -4,32 +4,37 @@
 		"name": "ISO:9001",
 		"info": {
 			"desc": "Pełnomocnik ds. Systemu Zarządzania Jakością",
-			"link": "/szkolenia/iso9001-pelnomocnik-ds-systemu-zarzadzania-jakoscia/"
+			"goal": "Szkolenie Pełnomocnika ds. Systemu Zarządzania Jakością ma na celu wyposażenie uczestników w niezbędne umiejętności, narzędzia i wiedzę, aby skutecznie zarządzać procesami związanymi z jakością w organizacji oraz aby przyczynić się do ciągłego doskonalenia i poprawy jakości produkowanych produktów lub świadczonych usług.",
+			"forWho": {
+				"text": "Szkolenie Pełnomocnika ds. Systemu Zarządzania Jakością jest skierowane głównie do pracowników lub członków zespołu, którzy będą odpowiedzialni za nadzór nad wdrażaniem, utrzymaniem i doskonaleniem systemu zarządzania jakością w organizacji.",
+				"list": [
+					"Pracownicy działu jakości",
+					"Liderzy zespołów jakościowych",
+					"Menadżerowie operacyjni",
+					"Pracownicy z działu produkcji lub usług",
+					"Kadra kierownicza"
+				]
+			}
 		},
 		"newForm": false
 	},
 	{
-		"id": "iso9001-audytor-wewnetrzny",
-		"name": "ISO:9001",
-		"info": {
-			"desc": "Audytor wewnętrzny SZJ ISO 9001:2015",
-			"link": "/szkolenia/iso9001-audytor-wewnetrzny/"
-		}
-	},
-	{
-		"id": "iso9001-wymagania-normy",
-		"name": "ISO:9001",
-		"info": {
-			"desc": "Audytor wewnętrzny SZJ ISO 9001:2015",
-			"link": "/szkolenia/iso9001-wymagania-normy/"
-		}
-	},
-	{
 		"id": "iso14001-pelnomocnik-ds-systemu-zarzadzania-srodowiskowego",
-		"name": "ISO:14001",
+		"name": "ISO 14001",
 		"info": {
 			"desc": "Pełnomocnik ds. Systemu Zarządzania Środowiskowego",
-			"link": "/szkolenia/iso14001-wymagania-normy/"
-		}
+			"goal": "Szkolenie Pełnomocnika ds. Systemu Zarządzania Środowiskowego ma na celu wyposażenie uczestników w niezbędne umiejętności, narzędzia i wiedzę, aby skutecznie zarządzać procesami związanymi z ochroną środowiska w organizacji oraz przyczynić się do ciągłego doskonalenia i minimalizacji wpływu działalności na środowisko naturalne.",
+			"forWho": {
+				"text": "Szkolenie Pełnomocnika ds. Systemu Zarządzania Środowiskowego jest skierowane do pracowników, którzy będą odpowiedzialni za nadzór nad wdrażaniem, utrzymaniem i doskonaleniem systemu zarządzania środowiskowego w organizacji.",
+				"list": [
+					"Pracownicy działu ochrony środowiska",
+					"Liderzy zespołów ds. środowiska",
+					"Menadżerowie operacyjni",
+					"Pracownicy z działu produkcji lub usług, których praca wpływa na środowisko",
+					"Kadra kierownicza"
+				]
+			}
+		},
+		"newForm": false
 	}
 ]

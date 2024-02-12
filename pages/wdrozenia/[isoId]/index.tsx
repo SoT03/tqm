@@ -3,6 +3,7 @@ import path from 'path';
 import { GetStaticProps } from 'next';
 import { IconSettingsUp } from '@tabler/icons-react';
 import Link from 'next/link';
+import Hero from '@/components/Hero';
 
 export const getStaticPaths = async () => {
 	const filePath = path.join(process.cwd(), 'data', 'implementationData.json');
@@ -106,6 +107,7 @@ const Details = ({ data }: DetailsProps) => {
 						</div>
 					</div>
 				</section>
+				<Hero text='Masz pytanie dotyczące wdrożenia lub potrzebujesz pomocy w wyborze ?' />
 				<section className='my-10 lg:my-20'>
 					<div className='wrapper'>
 						<h2 className='text-2xl font-bold text-sky-600 text-center mb-4 md:mb-10 md:text-4xl'>

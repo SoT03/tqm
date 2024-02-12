@@ -53,6 +53,11 @@ const trainings = [
 				desc: 'Szkolenie Pełnomocnika ds. Systemu Zarządzania Bezpieczeństwem Informacji jest niezbędne dla efektywnego zapewnienia ochrony danych oraz przeciwdziałania zagrożeniom cybernetycznym w organizacji poprzez właściwe wdrożenie, monitorowanie i doskonalenie systemu zarządzania bezpieczeństwem informacji.',
 				link: '/szkolenia/iso27001-pelnomocnik-ds-systemu-zarzadzania-bezpieczenstwem-informacji/',
 			},
+			{
+				title: 'Audytor wewnętrzny ISO 27001',
+				desc: 'Szkolenie audytora wewnętrznego ISO 27001 jest istotne, ponieważ umożliwia mu skuteczne przeprowadzanie audytów związanych z zarządzaniem bezpieczeństwem informacji, identyfikację obszarów poprawy, zapewnienie zgodności z wymaganiami normy oraz ciągłe doskonalenie systemu zarządzania bezpieczeństwem informacji organizacji.',
+				link: '/szkolenia/iso27001-audytor-wewnetrzny/',
+			},
 
 			{
 				title: 'Wymagania normy ISO 27001:2022',
@@ -63,12 +68,17 @@ const trainings = [
 	},
 	{
 		title: 'ISO:45001',
-		
+
 		trainings: [
 			{
 				title: 'Pełnomocnik ds. Systemu Zarządzania BHP',
 				desc: 'Szkolenie Pełnomocnika ds. Systemu Zarządzania BHP jest kluczowe, ponieważ umożliwia skuteczne nadzorowanie, wdrażanie i utrzymanie standardów bezpieczeństwa i higieny pracy, co przyczynia się do minimalizacji ryzyka wypadków i zachorowań zawodowych oraz zapewnienia bezpiecznego i zdrowego środowiska pracy dla pracowników.',
-				link: '/szkolenia/iso45001-pelnomocnik-ds-systemu-zarzadzania-srodowiskowego/',
+				link: '/szkolenia/iso45001-pelnomocnik-ds-systemu-zarzadzania-bhp/',
+			},
+			{
+				title: 'Audytor wewnętrzny ISO 45001',
+				desc: 'Szkolenie audytora wewnętrznego ISO 45001 jest istotne, ponieważ umożliwia mu skuteczne przeprowadzanie audytów związanych z zarządzaniem bezpieczeństwem i higieną pracy, identyfikację obszarów poprawy, zapewnienie zgodności z wymaganiami normy oraz ciągłe doskonalenie systemu zarządzania bezpieczeństwem i higieną pracy organizacji.',
+				link: '/szkolenia/iso45001-audytor-wewnetrzny/',
 			},
 
 			{

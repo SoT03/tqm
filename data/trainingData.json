@@ -4,9 +4,9 @@
 		"name": "ISO:9001",
 		"info": {
 			"desc": "Pełnomocnik ds. Systemu Zarządzania Jakością",
-			"goal": "Szkolenie Pełnomocnika ds. Systemu Zarządzania Jakością ma na celu wyposażenie uczestników w niezbędne umiejętności, narzędzia i wiedzę, aby skutecznie zarządzać procesami związanymi z jakością w organizacji oraz aby przyczynić się do ciągłego doskonalenia i poprawy jakości produkowanych produktów lub świadczonych usług.",
+			"goal": "Celem szkolenia na Pełnomocnika ds. Systemu Zarządzania Jakością jest wyposażenie uczestników w niezbędną wiedzę, umiejętności i narzędzia niezbędne do skutecznego zarządzania procesami związanymi z jakością w organizacji. Pełnomocnik ma za zadanie nadzorować wdrażanie, utrzymanie i doskonalenie systemu zarządzania jakością, zapewniając zgodność z normami i przepisami oraz ciągłe dążenie do poprawy jakości produkowanych produktów lub świadczonych usług. Szczególny nacisk kładzie się na umiejętność identyfikacji obszarów do poprawy, przeprowadzania audytów wewnętrznych i koordynacji działań zespołu ds. jakości w celu osiągnięcia doskonałości jakościowej i zadowolenia klientów.",
 			"forWho": {
-				"text": "Szkolenie Pełnomocnika ds. Systemu Zarządzania Jakością jest skierowane głównie do pracowników lub członków zespołu, którzy będą odpowiedzialni za nadzór nad wdrażaniem, utrzymaniem i doskonaleniem systemu zarządzania jakością w organizacji.",
+				"text": "Szkolenie Pełnomocnika ds. Systemu Zarządzania Jakością jest skierowane głównie do pracowników lub członków zespołu, którzy będą odpowiedzialni za nadzór nad wdrażaniem, utrzymaniem i doskonaleniem systemu zarządzania jakością w organizacji.Osoby te mogą obejmować:",
 				"list": [
 					"Pracownicy działu jakości",
 					"Liderzy zespołów jakościowych",
@@ -23,7 +23,7 @@
 		"name": "ISO 14001",
 		"info": {
 			"desc": "Pełnomocnik ds. Systemu Zarządzania Środowiskowego",
-			"goal": "Szkolenie Pełnomocnika ds. Systemu Zarządzania Środowiskowego ma na celu wyposażenie uczestników w niezbędne umiejętności, narzędzia i wiedzę, aby skutecznie zarządzać procesami związanymi z ochroną środowiska w organizacji oraz przyczynić się do ciągłego doskonalenia i minimalizacji wpływu działalności na środowisko naturalne.",
+			"goal": "Celem szkolenia na Pełnomocnika ds. Systemu Zarządzania Środowiskowego jest przygotowanie uczestników do skutecznego zarządzania procesami związanymi z ochroną środowiska w organizacji. Pełnomocnik ma za zadanie nadzorować implementację i utrzymanie systemu zarządzania środowiskowego zgodnego z normą ISO 14001 oraz innymi przepisami dotyczącymi ochrony środowiska. Szczególny nacisk kładzie się na identyfikację i minimalizację wpływu działalności organizacji na środowisko naturalne, zapewnienie zgodności z obowiązującymi przepisami oraz ciągłe doskonalenie procesów w celu osiągnięcia zrównoważonego rozwoju i ochrony środowiska dla przyszłych pokoleń.",
 			"forWho": {
 				"text": "Szkolenie Pełnomocnika ds. Systemu Zarządzania Środowiskowego jest skierowane do pracowników, którzy będą odpowiedzialni za nadzór nad wdrażaniem, utrzymaniem i doskonaleniem systemu zarządzania środowiskowego w organizacji.",
 				"list": [
@@ -32,6 +32,198 @@
 					"Menadżerowie operacyjni",
 					"Pracownicy z działu produkcji lub usług, których praca wpływa na środowisko",
 					"Kadra kierownicza"
+				]
+			}
+		},
+		"newForm": false
+	},
+	{
+		"id": "iso27001-pelnomocnik-ds-systemu-zarzadzania-bezpieczenstwem-informacji",
+		"name": "ISO 27001",
+		"info": {
+			"desc": "Pełnomocnik ds. Systemu Zarządzania Bezpieczeństwem Informacji",
+			"goal": "Celem szkolenia na Pełnomocnika ds. Systemu Zarządzania Bezpieczeństwem Informacji jest przygotowanie uczestników do skutecznego zarządzania procesami związanymi z bezpieczeństwem informacji w organizacji. Pełnomocnik ma za zadanie nadzorować implementację i utrzymanie systemu zarządzania bezpieczeństwem informacji zgodnego z normą ISO 27001 oraz innymi przepisami dotyczącymi ochrony danych. Szczególny nacisk kładzie się na identyfikację zagrożeń bezpieczeństwa informacji, stosowanie odpowiednich zabezpieczeń oraz ciągłe doskonalenie procesów w celu zapewnienia poufności, integralności i dostępności informacji.",
+			"forWho": {
+				"text": "Szkolenie Pełnomocnika ds. Systemu Zarządzania Bezpieczeństwem Informacji jest skierowane do pracowników, którzy będą odpowiedzialni za nadzór nad wdrażaniem, utrzymaniem i doskonaleniem systemu zarządzania bezpieczeństwem informacji w organizacji.",
+				"list": [
+					"Specjaliści ds. bezpieczeństwa informacji",
+					"Administratorzy systemów informatycznych",
+					"Analitycy ds. cyberbezpieczeństwa",
+					"Kierownicy projektów IT",
+					"Kadra kierownicza"
+				]
+			}
+		},
+		"newForm": true
+	},
+	{
+		"id": "iso45001-pelnomocnik-ds-systemu-zarzadzania-bhp",
+		"name": "ISO 45001",
+		"info": {
+			"desc": "Pełnomocnik ds. Systemu Zarządzania Bezpieczeństwem i Higieną Pracy",
+			"goal": "Celem szkolenia na Pełnomocnika ds. Systemu Zarządzania Bezpieczeństwem i Higieną Pracy jest przygotowanie uczestników do skutecznego zarządzania procesami związanymi z zapewnieniem bezpieczeństwa i higieny pracy w organizacji. Pełnomocnik ma za zadanie nadzorować implementację i utrzymanie systemu zarządzania bezpieczeństwem i higieną pracy zgodnego z normą ISO 45001 oraz innymi przepisami dotyczącymi bezpieczeństwa i higieny pracy. Szczególny nacisk kładzie się na identyfikację zagrożeń zdrowotnych i bezpieczeństwa w miejscu pracy, eliminację lub minimalizację ryzyka oraz ciągłe doskonalenie procesów w celu zapewnienia bezpiecznego i higienicznego środowiska pracy dla pracowników.",
+			"forWho": {
+				"text": "Szkolenie Pełnomocnika ds. Systemu Zarządzania Bezpieczeństwem i Higieną Pracy jest skierowane do pracowników, którzy będą odpowiedzialni za nadzór nad wdrażaniem, utrzymaniem i doskonaleniem systemu zarządzania bezpieczeństwem i higieną pracy w organizacji.",
+				"list": [
+					"Specjaliści ds. bezpieczeństwa i higieny pracy",
+					"Przedstawiciele pracowników ds. bezpieczeństwa i higieny pracy",
+					"Koordynatorzy ds. bezpieczeństwa i higieny pracy",
+					"Pracownicy z działu zarządzania personelem",
+					"Kadra kierownicza"
+				]
+			}
+		},
+		"newForm": false
+	},
+	{
+		"id": "iso9001-audytor-wewnetrzny",
+		"name": "ISO 9001",
+		"info": {
+			"desc": "Auditor Wewnętrzny Systemu Zarządzania Jakością",
+			"goal": "Celem szkolenia na Audytora Wewnętrznego Systemu Zarządzania Jakością jest przygotowanie uczestników do przeprowadzania skutecznych audytów wewnętrznych zgodnie z wymaganiami normy ISO 9001. Audytorzy wewnętrzni są odpowiedzialni za ocenę zgodności systemu zarządzania jakością z wymaganiami normy, identyfikację obszarów do poprawy oraz wspieranie organizacji w osiąganiu doskonałości procesowej i ciągłego doskonalenia.",
+			"forWho": {
+				"text": "Szkolenie Audytora Wewnętrznego Systemu Zarządzania Jakością jest skierowane do pracowników, którzy będą odpowiedzialni za przeprowadzanie audytów wewnętrznych systemu zarządzania jakością w organizacji.",
+				"list": [
+					"Pracownicy działu jakości",
+					"Liderzy zespołów jakościowych",
+					"Specjaliści ds. zapewnienia jakości",
+					"Osoby odpowiedzialne za nadzór nad procesami jakościowymi",
+					"Kadra kierownicza"
+				]
+			}
+		},
+		"newForm": false
+	},
+	{
+		"id": "iso14001-audytor-wewnetrzny",
+		"name": "ISO 14001",
+		"info": {
+			"desc": "Auditor Wewnętrzny Systemu Zarządzania Środowiskowego",
+			"goal": "Celem szkolenia na Audytora Wewnętrznego Systemu Zarządzania Środowiskowego jest przygotowanie uczestników do przeprowadzania skutecznych audytów wewnętrznych zgodnie z wymaganiami normy ISO 14001. Audytorzy wewnętrzni są odpowiedzialni za ocenę zgodności systemu zarządzania środowiskowego z wymaganiami normy, identyfikację obszarów do poprawy oraz wspieranie organizacji w osiąganiu celów zrównoważonego rozwoju i ochrony środowiska.",
+			"forWho": {
+				"text": "Szkolenie Audytora Wewnętrznego Systemu Zarządzania Środowiskowego jest skierowane do pracowników, którzy będą odpowiedzialni za przeprowadzanie audytów wewnętrznych systemu zarządzania środowiskowego w organizacji.",
+				"list": [
+					"Pracownicy działu ochrony środowiska",
+					"Liderzy zespołów ds. środowiska",
+					"Specjaliści ds. zapewnienia zgodności ze standardami środowiskowymi",
+					"Osoby odpowiedzialne za nadzór nad procesami związanymi z ochroną środowiska",
+					"Kadra kierownicza"
+				]
+			}
+		},
+		"newForm": false
+	},
+	{
+		"id": "iso27001-audytor-wewnetrzny",
+		"name": "ISO 27001",
+		"info": {
+			"desc": "Auditor Wewnętrzny Systemu Zarządzania Bezpieczeństwem Informacji",
+			"goal": "Celem szkolenia na Audytora Wewnętrznego Systemu Zarządzania Bezpieczeństwem Informacji jest przygotowanie uczestników do przeprowadzania skutecznych audytów wewnętrznych zgodnie z wymaganiami normy ISO 27001. Audytorzy wewnętrzni są odpowiedzialni za ocenę zgodności systemu zarządzania bezpieczeństwem informacji z wymaganiami normy, identyfikację obszarów do poprawy oraz wspieranie organizacji w zapewnianiu bezpieczeństwa informacji.",
+			"forWho": {
+				"text": "Szkolenie Audytora Wewnętrznego Systemu Zarządzania Bezpieczeństwem Informacji jest skierowane do pracowników, którzy będą odpowiedzialni za przeprowadzanie audytów wewnętrznych systemu zarządzania bezpieczeństwem informacji w organizacji.",
+				"list": [
+					"Specjaliści ds. bezpieczeństwa informacji",
+					"Administratorzy systemów informatycznych",
+					"Analitycy ds. cyberbezpieczeństwa",
+					"Kierownicy projektów IT",
+					"Kadra kierownicza"
+				]
+			}
+		},
+		"newForm": false
+	},
+	{
+		"id": "iso45001-audytor-wewnetrzny",
+		"name": "ISO 45001",
+		"info": {
+			"desc": "Auditor Wewnętrzny Systemu Zarządzania Bezpieczeństwem i Higieną Pracy",
+			"goal": "Celem szkolenia na Audytora Wewnętrznego Systemu Zarządzania Bezpieczeństwem i Higieną Pracy jest przygotowanie uczestników do przeprowadzania skutecznych audytów wewnętrznych zgodnie z wymaganiami normy ISO 45001. Audytorzy wewnętrzni są odpowiedzialni za ocenę zgodności systemu zarządzania bezpieczeństwem i higieną pracy z wymaganiami normy, identyfikację obszarów do poprawy oraz wspieranie organizacji w zapewnianiu bezpiecznego i higienicznego środowiska pracy.",
+			"forWho": {
+				"text": "Szkolenie Audytora Wewnętrznego Systemu Zarządzania Bezpieczeństwem i Higieną Pracy jest skierowane do pracowników, którzy będą odpowiedzialni za przeprowadzanie audytów wewnętrznych systemu zarządzania bezpieczeństwem i higieną pracy w organizacji.",
+				"list": [
+					"Specjaliści ds. bezpieczeństwa i higieny pracy",
+					"Przedstawiciele pracowników ds. bezpieczeństwa i higieny pracy",
+					"Koordynatorzy ds. bezpieczeństwa i higieny pracy",
+					"Pracownicy z działu zarządzania personelem",
+					"Kadra kierownicza"
+				]
+			}
+		},
+		"newForm": false
+	},
+	{
+		"id": "iso9001-wymagania-normy",
+		"name": "ISO 9001",
+		"info": {
+			"desc": "Wymagania normy ISO 9001",
+			"goal": "Celem szkolenia dotyczącego wymagań normy ISO 9001 jest zapoznanie uczestników z międzynarodowym standardem dla systemów zarządzania jakością. Szkolenie ma na celu umożliwienie organizacjom dostarczania produktów i usług zgodnych z oczekiwaniami klientów oraz spełnianie obowiązujących wymagań prawnych i regulacyjnych poprzez efektywne wdrażanie, utrzymanie i doskonalenie systemu zarządzania jakością.",
+			"forWho": {
+				"text": "Wymagania normy ISO 9001 są przeznaczone dla wszystkich organizacji, niezależnie od ich wielkości, branży czy lokalizacji, które chcą ustanowić, wdrożyć, utrzymać i ciągle doskonalić system zarządzania jakością, aby zwiększyć satysfakcję klienta poprzez skuteczną aplikację systemu, w tym procesów usprawniania systemu oraz zapewnienie zgodności z wymaganiami klienta, jak również wymaganiami ustawowymi i regulacyjnymi.",
+				"list": [
+					"Organizacje chcące zapewnić wysoką jakość swoich produktów i usług",
+					"Organizacje dążące do ciągłego doskonalenia swoich procesów i procedur",
+					"Organizacje, które chcą zwiększyć satysfakcję klienta poprzez skuteczne zarządzanie jakością"
+				]
+			}
+		},
+		"newForm": false
+	},
+	{
+		"id": "iso14001-wymagania-normy",
+		"name": "ISO 14001",
+		"info": {
+			"desc": "Wymagania normy ISO 14001",
+			"goal": "Celem szkolenia dotyczącego wymagań normy ISO 14001 jest zapoznanie uczestników z międzynarodowym standardem dla systemów zarządzania środowiskowego. Szkolenie ma na celu umożliwienie organizacjom identyfikacji, oceny i kontrolowania wpływu ich działań na środowisko naturalne oraz spełnianie obowiązujących wymagań prawnych i regulacyjnych dotyczących ochrony środowiska.",
+			"forWho": {
+				"text": "Wymagania normy ISO 14001 są przeznaczone dla wszystkich organizacji, niezależnie od ich wielkości, branży czy lokalizacji, które chcą ustanowić, wdrożyć, utrzymać i doskonalić system zarządzania środowiskowego, aby minimalizować negatywny wpływ swojej działalności na środowisko naturalne oraz zwiększyć zgodność z obowiązującymi przepisami dotyczącymi ochrony środowiska.",
+				"list": [
+					"Przedsiębiorstwa produkcyjne",
+					"Firmy usługowe",
+					"Instytucje publiczne",
+					"Organizacje non-profit",
+					"Firmy międzynarodowe",
+					"Firmy lokalne"
+				]
+			}
+		},
+		"newForm": false
+	},
+	{
+		"id": "iso27001-wymagania-normy",
+		"name": "ISO 27001",
+		"info": {
+			"desc": "Wymagania normy ISO 27001",
+			"goal": "Celem szkolenia dotyczącego wymagań normy ISO 27001 jest zapoznanie uczestników z międzynarodowym standardem dla systemów zarządzania bezpieczeństwem informacji. Szkolenie ma na celu umożliwienie organizacjom zapewnienia odpowiedniego poziomu ochrony informacji, identyfikacji i minimalizacji ryzyka związanego z bezpieczeństwem informacji oraz spełnienie obowiązujących wymagań prawnych i regulacyjnych dotyczących ochrony informacji.",
+			"forWho": {
+				"text": "Wymagania normy ISO 27001 są przeznaczone dla wszystkich organizacji, niezależnie od ich wielkości, branży czy lokalizacji, które przechowują, przetwarzają lub udostępniają poufne informacje. Szczególnie ważne jest to dla organizacji z sektorów finansowego, medycznego, IT oraz dla tych, które obsługują duże ilości danych osobowych.",
+				"list": [
+					"Przedsiębiorstwa finansowe",
+					"Organizacje medyczne",
+					"Firmy technologiczne",
+					"Instytucje rządowe",
+					"Przedsiębiorstwa korporacyjne",
+					"Firmy usługowe świadczące usługi informatyczne",
+					"Firmy zajmujące się przetwarzaniem dużych ilości danych osobowych"
+				]
+			}
+		},
+		"newForm": false
+	},
+	{
+		"id": "iso45001-wymagania-normy",
+		"name": "ISO 45001",
+		"info": {
+			"desc": "Wymagania normy ISO 45001",
+			"goal": "Celem szkolenia dotyczącego wymagań normy ISO 45001 jest zapoznanie uczestników z międzynarodowym standardem dla systemów zarządzania bezpieczeństwem i higieną pracy. Szkolenie ma na celu umożliwienie organizacjom zapewnienia bezpiecznego i higienicznego środowiska pracy, identyfikacji i minimalizacji ryzyka związanego z bezpieczeństwem i higieną pracy oraz spełnienie obowiązujących wymagań prawnych i regulacyjnych dotyczących bezpieczeństwa i higieny pracy.",
+			"forWho": {
+				"text": "Wymagania normy ISO 45001 są przeznaczone dla wszystkich organizacji, niezależnie od ich wielkości, branży czy lokalizacji, które chcą zapewnić bezpieczne i zdrowe warunki pracy dla swoich pracowników oraz zminimalizować ryzyko wypadków i chorób zawodowych.",
+				"list": [
+					"Przedsiębiorstwa produkcyjne",
+					"Firmy usługowe",
+					"Instytucje publiczne",
+					"Organizacje non-profit",
+					"Przedsiębiorstwa budowlane",
+					"Organizacje z sektora przemysłowego"
 				]
 			}
 		},

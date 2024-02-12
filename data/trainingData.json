@@ -1,0 +1,35 @@
+[
+	{
+		"id": "iso9001-pelnomocnik-ds-systemu-zarzadzania-jakoscia",
+		"name": "ISO:9001",
+		"info": {
+			"desc": "Pełnomocnik ds. Systemu Zarządzania Jakością",
+			"link": "/szkolenia/iso9001-pelnomocnik-ds-systemu-zarzadzania-jakoscia/"
+		},
+		"newForm": false
+	},
+	{
+		"id": "iso9001-audytor-wewnetrzny",
+		"name": "ISO:9001",
+		"info": {
+			"desc": "Audytor wewnętrzny SZJ ISO 9001:2015",
+			"link": "/szkolenia/iso9001-audytor-wewnetrzny/"
+		}
+	},
+	{
+		"id": "iso9001-wymagania-normy",
+		"name": "ISO:9001",
+		"info": {
+			"desc": "Audytor wewnętrzny SZJ ISO 9001:2015",
+			"link": "/szkolenia/iso9001-wymagania-normy/"
+		}
+	},
+	{
+		"id": "iso14001-pelnomocnik-ds-systemu-zarzadzania-srodowiskowego",
+		"name": "ISO:14001",
+		"info": {
+			"desc": "Pełnomocnik ds. Systemu Zarządzania Środowiskowego",
+			"link": "/szkolenia/iso14001-wymagania-normy/"
+		}
+	}
+]

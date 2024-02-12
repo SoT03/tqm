@@ -5,7 +5,7 @@ import data from '../../data/implementationData.json';
 import Card from '../OfferCard';
 
 const MainSection = () => {
-	console.log(data);
+	
 
 	return (
 		<Section id='wdrozenia'>

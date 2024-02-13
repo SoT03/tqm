@@ -1,11 +1,11 @@
 import { useWindowSize } from '@/hooks/useWindowSize';
 import TitlePage from '../Header/headerTitlePage';
 import CarouselItem from './carouselItem';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 const Carousel = () => {
 	const [currentIndex, setCurrentIndex] = useState(0);
-	const timerRef = useRef();
+	const timerRef = useRef<NodeJS.Timeout>();
 	const sizes = useWindowSize();
 
 	const carouselItems = [
@@ -37,18 +37,21 @@ const Carousel = () => {
 
 	const dots = [0, 1, 2, 3];
 
-	const nextItem = () => {
+	const nextItem = useCallback(() => {
 		const isLastSlide = currentIndex === carouselItems.length;
 		const newIndex = isLastSlide ? 0 : currentIndex + 1;
 		setCurrentIndex(newIndex);
-	};
+	}, [currentIndex, carouselItems]);
 
 	useEffect(() => {
+		if (timerRef.current) {
+			clearTimeout(timerRef.current);
+		}
 		timerRef.current = setTimeout(() => {
 			nextItem();
 		}, 6000);
 		return () => clearTimeout(timerRef.current);
-	});
+	}, [nextItem]);
 
 	return (
 		<div className='relative h-full z-0 overflow-hidden'>

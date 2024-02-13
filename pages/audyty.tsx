@@ -1,4 +1,5 @@
 import Hero from '@/components/Hero';
+import Head from 'next/head';
 
 const Audits = () => {
 	const benefits = [
@@ -26,6 +27,14 @@ const Audits = () => {
 
 	return (
 		<>
+			<Head>
+				<title>TQM Partners Doradztwo: Audyty</title>
+
+				<meta
+					name='description'
+					content='Przeprowadzamy audyty które pomogą zbadać mocne oraz słabe strony twojej firmy. Pomożemy ci także zwalczyć'
+				/>
+			</Head>
 			<header className='mt-24 mb-16 px-8 md:mt-28 md:px-20 '>
 				<div className='wrapper'>
 					<h1 className='text-center text-3xl font-bold mb-4 md:text-5xl'>

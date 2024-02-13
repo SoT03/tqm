@@ -1,4 +1,5 @@
 import PrivacyPolicyRow from '@/components/PrivacyPolicyRow';
+import Head from 'next/head';
 import Link from 'next/link';
 
 const cookiesData = [
@@ -295,6 +296,15 @@ const cookiesData = [
 const PrivacyPolicy = () => {
 	return (
 		<>
+		<Head>
+				<title>TQM Partners Doradztwo: Polityka Prywatności</title>
+				
+				
+				<meta
+					name='description'
+					content='Polityka prywatności TQM Partners doradztwo'
+				/>
+			</Head>
 			<header className='mt-24 md:mt-32'>
 				<h1 className='text-2xl text-center font-bold'>
 					Polityka Prywatności TQM Partners Sp. z o. o.

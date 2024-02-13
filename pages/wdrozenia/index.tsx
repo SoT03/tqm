@@ -1,10 +1,19 @@
 import Hero from '@/components/Hero';
 import Header from '@/components/wdrozenia/Header';
 import MainSection from '@/components/wdrozenia/main';
+import Head from 'next/head';
 
 const Home = () => {
 	return (
 		<>
+			<Head>
+				<title>TQM Partners Doradztwo: wdrożenia</title>
+
+				<meta
+					name='description'
+					content='Bogata oferta wdrożeń TQM Partners z systemów zarządzania i nie tylko '
+				/>
+			</Head>
 			<Header
 				data={{
 					img: '/img/wdrozenia/businessman_big.jpg',

@@ -1,10 +1,19 @@
 import Header from '@/components/wdrozenia/Header';
 import MainSection from '@/components/szkolenia/main';
 import Hero from '@/components/Hero';
+import Head from 'next/head';
 
 const Home = () => {
 	return (
 		<>
+			<Head>
+				<title>TQM Partners Doradztwo: Szkolenia</title>
+
+				<meta
+					name='description'
+					content='Bogata oferta szkoleń na audytora, pełnomocnika oraz szkolenia norm ISO'
+				/>
+			</Head>
 			<Header
 				data={{
 					img: '/img/szkolenia/startup_big.jpg',

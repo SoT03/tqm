@@ -4,6 +4,7 @@ import { GetStaticProps } from 'next';
 import { IconSettingsUp } from '@tabler/icons-react';
 import Link from 'next/link';
 import Hero from '@/components/Hero';
+import Head from 'next/head';
 
 export const getStaticPaths = async () => {
 	const filePath = path.join(process.cwd(), 'data', 'implementationData.json');
@@ -48,6 +49,14 @@ type DetailsProps = {
 const Details = ({ data }: DetailsProps) => {
 	return (
 		<>
+			<Head>
+				<title>Wdrożenie ${data.name}</title>
+
+				<meta
+					name='description'
+					content={`Wszystko co musisz wiedzieć o ofercie wdrożenia ${data.name}`}
+				/>
+			</Head>
 			<header className='mt-16 p-10 md:mt-24'>
 				<div className='wrapper text-center'>
 					<div>

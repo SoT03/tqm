@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { IconMenu2, IconX } from '@tabler/icons-react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import Logo from './logo';
 
 const navLinks: { name: string; link: string }[] = [
 	{ name: 'O nas', link: '/#aboutus' },
@@ -13,14 +14,10 @@ const navLinks: { name: string; link: string }[] = [
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
-	const [scrollY, setScrollY] = useState(0);
-	useEffect(() => {
-		function handleScroll() {
-			setScrollY(window.scrollY);
-		}
 
-		window.addEventListener('scroll', handleScroll);
-	}, []);
+	const navLinkHandler = () => {
+		setIsOpen(false);
+	};
 
 	const navMenuHandler = () => {
 		setIsOpen(!isOpen);
@@ -30,28 +27,14 @@ const Navbar = () => {
 		<nav className='fixed top-0 left-0 w-full  text-lg  backdrop-blur-sm bg-opacity-65  bg-black    z-10'>
 			<div className='wrapper-lg'>
 				<div className='py-4 px-6 flex items-center justify-between md:py-2 lg:px-10 lg:py-4'>
-					<Link
-						href={'/'}
-						className='flex items-center uppercase font-semibold  '>
-						<p className='  lg:text-2xl'>tqm</p>
-						<Image
-							priority={false}
-							height={60}
-							width={80}
-							src='/img/logo.png'
-							alt='TQM Partners'
-							className='w-8 mx-1 md:w-12'
-						/>{' '}
-						<p className=' lg:text-2xl '>Partners</p>
-					</Link>
-
+					<Logo />
 					<div
 						className='cursor-pointer text-white md:hidden z-30'
 						onClick={navMenuHandler}>
 						<IconMenu2
 							className={`w-10 h-10  ${!isOpen ? 'nav-icon' : 'hidden'}`}
 						/>
-						<IconX className={`w-10 h-10 ${isOpen ? 'nav-icon' : 'hidden'}`} />
+						<IconX className={`w-10 h-10 ${isOpen ? 'nav-icon' : 'hidden'}`} />L
 					</div>
 
 					<ul
@@ -62,6 +45,8 @@ const Navbar = () => {
 							let duration = (index + 2) * 250;
 							return (
 								<li
+									
+									onClick={navLinkHandler}
 									style={{ transitionDuration: duration + 'ms' }}
 									key={link.name}
 									className={` ${index === 0 ? '' : 'border-t-2'}  ${

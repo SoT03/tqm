@@ -95,7 +95,7 @@ const Footer = () => {
 					</div>
 					<Link
 						target='_blank'
-						href='/polityka-prywatnosci'
+						href='/politykaprywatnosci'
 						className='hover:text-blue-400'>
 						Polityka Prywatności
 					</Link>

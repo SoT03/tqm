@@ -14,18 +14,18 @@ const offerList = [
 			{
 				title: 'ISO 14001',
 				text: 'Pełnomocnik ds. Systemu Zarządzania Środowiskowego',
-				link: '/szkolenia/iso9001/pelnomocnik',
+				link: '/szkolenia/iso14001-pelnomocnik-ds-systemu-zarzadzania-srodowiskowego',
 			},
 			{
 				title: 'ISO 27001',
 				text: 'Szkolenie wymagania normy ISO 27001:2022',
-				link: '/szkolenia/iso27001/wymagania',
+				link: '/szkolenia/iso27001-wymagania-normy',
 				newForm: true,
 			},
 			{
 				title: 'ISO 9001',
 				text: 'Audytor wewnętrzny ISO 9001:2015',
-				link: '/szkolenia/iso9001/audytor',
+				link: 'szkolenia/iso9001-audytor-wewnetrzny',
 			},
 		],
 	},

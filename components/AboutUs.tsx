@@ -16,7 +16,8 @@ const AboutUs = () => {
 						jest jednostką szkoleniowo - doradczą specjalizującą się w
 						dziedzinie organizacji i zarządzania, projektowania, wdrażania i
 						rozwijania systemów zarządzania opartych o międzynarodowe Normy ISO
-						w organizacjach o różnym profilu działalności.
+						w organizacjach o różnym profilu działalności. Oferujemy wszelaką
+						pomoc oraz doradztwo w sprawach dotyczących systemów zarządzania
 					</p>{' '}
 					<p>
 						Naszym zadaniem jest wsparcie kadry zarządzającej w momencie

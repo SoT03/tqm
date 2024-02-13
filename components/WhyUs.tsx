@@ -5,32 +5,32 @@ import SectionHr from './util/section/Sectionhr';
 
 const traitsData = [
 	{
-		icon: '/icons/target.png',
+		icon: '/img/target.png',
 		text: 'Doświadczenie, kompetencje i wiedza merytoryczna',
 		alt: 'Ikona strzały w tarczy',
 	},
 	{
-		icon: '/icons/puzzle.png',
+		icon: '/img/puzzle.png',
 		text: 'Indywidualne rozwiązania przystosowane dla twojego biznesu',
 		alt: 'Ikona puzzli',
 	},
 	{
-		icon: '/icons/settings.png',
+		icon: '/img/settings.png',
 		text: 'Praktyczne narzędzia i metody pracy zmniejszające biurokrację i zbędne operacje',
 		alt: 'Ikona Narzędzi',
 	},
 	{
-		icon: '/icons/protected.png',
+		icon: '/img/protected.png',
 		text: 'Ułatwienie spełniania wymogów prawnych oraz Twoich klientów',
 		alt: 'Ikona zatwierdzenia',
 	},
 	{
-		icon: '/icons/note.png',
+		icon: '/img/note.png',
 		text: 'Zwiększenie efektywności oraz wydajności twojej organizacji',
 		alt: 'Ikona checklisty',
 	},
 	{
-		icon: '/icons/handshake.png',
+		icon: '/img/handshake.png',
 		text: 'Szybki kontakt, elastyczność oraz pomoc',
 		alt: 'Uścisk dłoni',
 	},

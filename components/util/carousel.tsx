@@ -22,7 +22,7 @@ const Carousel = () => {
 			url_mobile: 'url(/img/certificate_small.jpg)',
 			heading: 'Wdrożenia',
 			para: 'Chcesz wdrożyć system ISO w swojej firmie i szukasz profesjonalnego wsparcia ? Pomożemy ci wdrożyć ISO: 9001,14001,27001 i wiele innych.',
-			link: '/wdrożenia',
+			link: '/wdrozenia',
 			button_text: 'Sprawdź Wdrożenia',
 		},
 		{

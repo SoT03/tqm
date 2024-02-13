@@ -17,6 +17,7 @@ export default function Home() {
 		<>
 			<Head>
 				<title>TQM Partners Doradztwo: Systemy zarządzania</title>
+				<link rel='canonical' href='https://tqmpartners.pl/' />
 				<meta
 					property='og:title'
 					content='TQM Partners Doradztwo: Systemy zarządzania'
@@ -24,9 +25,7 @@ export default function Home() {
 				<meta property='og:url' content='www.tqmpartner.pl' />
 				<meta
 					name='description'
-					content='Od ponad 15 lat zajmujemy się szkoleniem orz wdrażaniem systemów
-					zarządzania w firmach. Każde zlecenie traktujemy indywidualnie
-					powołując zespół do zrealizowania projektu.'
+					content='Wdrożenia, szkolenia i doradztwo to nasza pasja. Od 15 lat specjalizujemy się w systemach zarządzania'
 				/>
 			</Head>
 			<Header />

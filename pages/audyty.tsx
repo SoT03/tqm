@@ -73,7 +73,7 @@ const Audits = () => {
 						</h3>
 						<ul>
 							{benefits.map((benefit) => (
-								<li className='list-disc'>
+								<li key={benefit.benefit} className='list-disc'>
 									<span>{benefit.benefit}</span>
 									<p>{benefit.description}</p>
 								</li>

@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Footer from './footer';
 import Navbar from './navbar';
+import CookieConsentBanner from '../cookie';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 	return (
@@ -8,6 +9,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 			<Navbar />
 			{children}
 			<Footer />
+			<CookieConsentBanner />
 		</>
 	);
 };

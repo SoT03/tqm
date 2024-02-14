@@ -7,6 +7,7 @@ export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<Layout>
 			<Head>
+				<meta httpEquiv='content-language' content='pl' />
 				<link rel='shortcut icon' href='img/favicon.ico' />
 				<link rel='apple-touch-icon' sizes='180x180' href='img/favicon.ico' />
 			</Head>

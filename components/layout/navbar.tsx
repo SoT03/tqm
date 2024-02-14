@@ -34,7 +34,7 @@ const Navbar = () => {
 						<IconMenu2
 							className={`w-10 h-10  ${!isOpen ? 'nav-icon' : 'hidden'}`}
 						/>
-						<IconX className={`w-10 h-10 ${isOpen ? 'nav-icon' : 'hidden'}`} />L
+						<IconX className={`w-10 h-10 ${isOpen ? 'nav-icon' : 'hidden'}`} />
 					</div>
 
 					<ul

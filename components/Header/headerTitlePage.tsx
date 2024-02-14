@@ -22,6 +22,12 @@ const TitlePage = ({ width, isActive }: titlePageProps) => {
 			}}>
 			<div className='wrapper-lg flex flex-col h-full items-center justify-center px-10 md:px-24 md:items-start lg:bg-black lg:bg-opacity-40 lg:ml-0 lg:max-w-[60%] xl:max-w-[50%] z-10  '>
 				<div className='mt-6 mb-2 md:text-2xl text-shadow md:mt-0 md:mb-4 lg:my-10 xl:text-3xl xl:mr-28'>
+					<h1 className='flex flex-col text-xl font-semibold text-right md:flex-row md:mb-2'>
+						<span className='text-teal-300  text-shadow'>Szkolenia,</span>
+						<span className='text-teal-200 text-shadow'>Wdrożenia,</span>
+						<span className='text-teal-100 text-shadow'>Doradztwo</span>
+						<span className='text-teal-50 text-shadow'>ISO</span>
+					</h1>
 					<h1>
 						Systemy zarządzania to nasza <HighlightedSpan text='PASJA' />
 					</h1>
@@ -31,11 +37,6 @@ const TitlePage = ({ width, isActive }: titlePageProps) => {
 					</h2>
 				</div>
 				<div className='w-full '>
-					<div className='flex flex-col text-xl font-semibold text-right md:flex-row md:mb-2'>
-						<span className='text-teal-300  text-shadow'>Szkolimy,</span>
-						<span className='text-teal-200 text-shadow'>Wdrażamy,</span>
-						<span className='text-teal-100 text-shadow'>Doradzamy</span>
-					</div>
 					<p className='hidden md:block'>
 						Nasi eksperci to zespół wysoko wykwalifikowanych profesjonalistów,
 						których głęboka wiedza i doświadczenie przyczyniają się do sukcesu

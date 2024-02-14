@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import FormRow from './FormRow';
 import Link from 'next/link';
+import emailjs from '@emailjs/browser';
 
 const formRows = [
 	{
@@ -41,6 +42,7 @@ const formRows = [
 ];
 
 const Form = () => {
+	const form = useRef();
 	const [values, setValues] = useState({
 		name: '',
 		orgName: '',
@@ -51,6 +53,18 @@ const Form = () => {
 
 	const handleSubmit = (e: any) => {
 		e.preventDefault();
+		emailjs
+			.sendForm('service_g3yna8o', 'template_lpwbz4l', form.current, {
+				publicKey: '2eqJwcKsm9MLs95iX',
+			})
+			.then(
+				() => {
+					console.log('SUCCESS!');
+				},
+				(error) => {
+					console.log('FAILED...', error.text);
+				}
+			);
 	};
 
 	const changeHandler = (e: any) => {
@@ -58,7 +72,7 @@ const Form = () => {
 	};
 
 	return (
-		<form action='' className='md:mt-10 ' onSubmit={handleSubmit}>
+		<form ref={form} className='md:mt-10 ' onSubmit={handleSubmit}>
 			<div className='xl:flex flex-wrap  justify-around xl:max-w-[900px] xl:m-auto'>
 				{formRows.map((row) => (
 					<FormRow

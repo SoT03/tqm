@@ -43,36 +43,40 @@ const formRows = [
 
 const Form = () => {
 	const form = useRef(null);
-	
+	const [formStatus, setFormStatus] = useState(0);
 
 	const handleSubmit = (e: any) => {
 		e.preventDefault();
 		emailjs
-			.sendForm('service_g3yna8o', 'template_lpwbz4l', form.current!, {
-				publicKey: '2eqJwcKsm9MLs95iX',
-			})
+			.sendForm(
+				process.env.NEXT_PUBLIC_ID!,
+				process.env.NEXT_PUBLIC_template!,
+				form.current!,
+				{
+					publicKey: process.env.NEXT_PUBLIC_KEY,
+				}
+			)
 			.then(
 				() => {
-					console.log('SUCCESS!');
+					setFormStatus(1);
 				},
 				(error) => {
-					console.log('FAILED...', error.text);
+					alert(`Wysyłanie nie powiodło się ${error.text}`);
 				}
 			);
 	};
 
-	
-
 	return (
-		<form ref={form} className='md:mt-10 ' onSubmit={handleSubmit}>
+		<form
+			ref={form}
+			onReset={() => {
+				setFormStatus(0);
+			}}
+			className='relative md:mt-10 '
+			onSubmit={handleSubmit}>
 			<div className='xl:flex flex-wrap  justify-around xl:max-w-[900px] xl:m-auto'>
 				{formRows.map((row) => (
-					<FormRow
-						{...row}
-						key={row.labelId}
-						
-						errMessage={row.errMessage}
-					/>
+					<FormRow {...row} key={row.labelId} errMessage={row.errMessage} />
 				))}
 			</div>
 			<div className='md:my-12 lg:text-black xl:max-w-[800px] xl:m-auto'>
@@ -118,6 +122,19 @@ const Form = () => {
 					Wyślij
 				</button>
 			</div>
+			{formStatus && (
+				<div className='fixed top-0 left-0 w-full h-screen z-40 flex items-center justify-center  '>
+					<div className='bg-white relative z-50 mx-1 rounded-md p-8 max-w-[420px] md'>
+						<p className='mb-4 text-black'>
+							Wiadomość została wysłana pomyślnie.
+						</p>
+						<button className='btn w-full text-white' type='reset'>
+							Powrót
+						</button>
+					</div>
+					<div className='bg-shadow'></div>
+				</div>
+			)}
 		</form>
 	);
 };

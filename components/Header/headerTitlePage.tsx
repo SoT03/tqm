@@ -28,9 +28,9 @@ const TitlePage = ({ width, isActive }: titlePageProps) => {
 						<span className='text-teal-100 text-shadow'>Doradztwo</span>
 						<span className='text-teal-50 text-shadow'>ISO</span>
 					</h1>
-					<h1>
+					<h2>
 						Systemy zarządzania to nasza <HighlightedSpan text='PASJA' />
-					</h1>
+					</h2>
 					<h2 className=''>
 						<HighlightedSpan text='Jakość' /> to nasza misja,{' '}
 						<HighlightedSpan text='Doskonałość' /> to nasza droga.

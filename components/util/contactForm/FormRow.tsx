@@ -1,9 +1,5 @@
 import { ChangeEvent, useState } from 'react';
 type FormRowProps = {
-	onChange: (
-		e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>
-	) => void;
-
 	label: string;
 	labelId: string;
 	required?: boolean;
@@ -32,10 +28,8 @@ const FormRow = ({
 	) => {
 		if (pattern) {
 			setIsValid(emailRegex.test(e.target.value));
-			
 		} else if (e.target.validity.valid && e.target.value.trim().length > 2) {
 			setIsValid(true);
-			
 		}
 	};
 

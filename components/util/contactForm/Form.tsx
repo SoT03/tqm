@@ -42,19 +42,13 @@ const formRows = [
 ];
 
 const Form = () => {
-	const form = useRef();
-	const [values, setValues] = useState({
-		name: '',
-		orgName: '',
-		telNumber: '',
-		email: '',
-		message: '',
-	});
+	const form = useRef(null);
+	
 
 	const handleSubmit = (e: any) => {
 		e.preventDefault();
 		emailjs
-			.sendForm('service_g3yna8o', 'template_lpwbz4l', form.current, {
+			.sendForm('service_g3yna8o', 'template_lpwbz4l', form.current!, {
 				publicKey: '2eqJwcKsm9MLs95iX',
 			})
 			.then(
@@ -67,9 +61,7 @@ const Form = () => {
 			);
 	};
 
-	const changeHandler = (e: any) => {
-		setValues({ ...values, [e.target.name]: e.target.value });
-	};
+	
 
 	return (
 		<form ref={form} className='md:mt-10 ' onSubmit={handleSubmit}>
@@ -78,7 +70,7 @@ const Form = () => {
 					<FormRow
 						{...row}
 						key={row.labelId}
-						onChange={changeHandler}
+						
 						errMessage={row.errMessage}
 					/>
 				))}

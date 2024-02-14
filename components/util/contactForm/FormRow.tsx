@@ -19,7 +19,6 @@ const FormRow = ({
 	labelId,
 	required,
 	textarea,
-	onChange,
 	errMessage,
 	type,
 	pattern,
@@ -33,10 +32,10 @@ const FormRow = ({
 	) => {
 		if (pattern) {
 			setIsValid(emailRegex.test(e.target.value));
-			onChange(e);
+			
 		} else if (e.target.validity.valid && e.target.value.trim().length > 2) {
 			setIsValid(true);
-			onChange(e);
+			
 		}
 	};
 

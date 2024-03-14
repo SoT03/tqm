@@ -1,10 +1,12 @@
 import { useWindowSize } from '@/hooks/useWindowSize';
+import Link from 'next/link';
 type HeaderProps = {
 	data: {
 		img_mobile: string;
 		img: string;
 		title: string;
 		content: string;
+		buttonText?: string;
 	};
 };
 
@@ -24,6 +26,12 @@ const Header = ({ data }: HeaderProps) => {
 					{data.title}
 				</h1>
 				<p className='text-shadow lg:text-xl'>{data.content}</p>
+
+				{data.buttonText && (
+					<Link href='#more' className='btn my-6 md:mt-16'>
+						{data.buttonText}
+					</Link>
+				)}
 			</div>
 			<div className='bg-shadow '></div>
 		</header>

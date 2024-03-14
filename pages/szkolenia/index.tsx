@@ -2,6 +2,7 @@ import Header from '@/components/wdrozenia/Header';
 import MainSection from '@/components/szkolenia/main';
 import Hero from '@/components/Hero';
 import Head from 'next/head';
+import Download from '@/components/szkolenia/download';
 
 const Home = () => {
 	return (
@@ -21,11 +22,13 @@ const Home = () => {
 					title: 'Szkolenia',
 					content:
 						'Nasze szkolenia to nie tylko przekazanie wiedzy, ale także interaktywne doświadczenie, które angażuje każdego uczestnika. Poprzez praktyczne przykłady, studia przypadków oraz aktywne dyskusje, zapewniamy środowisko, które stymuluje kreatywność i wspiera rozwój umiejętności. Nasz cel jest jasny - chcemy zapewnić Ci nie tylko wiedzę teoretyczną, ale przede wszystkim praktyczne narzędzia i umiejętności, które zrewolucjonizują Twoje podejście do zarządzania jakością.',
+					buttonText: 'Formularz zgłoszeniowy',
 				}}
 			/>
 			<main>
 				<MainSection />
 				<Hero text='Nie znalazłeś szkolenia którego szukasz lub potrzebujesz pomocy przy wyborze ?' />
+				<Download />
 			</main>
 		</>
 	);

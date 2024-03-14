@@ -50,7 +50,7 @@ const Details = ({ data }: DetailsProps) => {
 	return (
 		<>
 			<Head>
-				<title>Wdrożenie ${data.name}</title>
+				<title>Wdrożenie {data.name}</title>
 
 				<meta
 					name='description'

@@ -6,11 +6,7 @@ import Hero from '@/components/Hero';
 import Contact from '@/components/Contact';
 import Head from 'next/head';
 
-// export const metadata: Metadata = {
-// 	title: 'TQM Partners Doradztwo: Systemy zarządzania',
-// 	description:
-// 		'Od ponad 15 lat zajmujemy się szkoleniem orz wdrażaniem systemów zarządzania w firmach. Każde zlecenie traktujemy indywidualnie powołując zespół do zrealizowania projektu. ',
-// };
+
 
 export default function Home() {
 	return (
